@@ -1,0 +1,2290 @@
+<?xml version="1.0" encoding="utf-8"?>
+<root><!-- 
+    Microsoft ResX Schema 
+    
+    Version 2.0
+    
+    The primary goals of this format is to allow a simple XML format 
+    that is mostly human readable. The generation and parsing of the 
+    various data types are done through the TypeConverter classes 
+    associated with the data types.
+    
+    Example:
+    
+    ... ado.net/XML headers & schema ...
+    <resheader name="resmimetype">text/microsoft-resx</resheader>
+    <resheader name="version">2.0</resheader>
+    <resheader name="reader">System.Resources.ResXResourceReader, System.Windows.Forms, ...</resheader>
+    <resheader name="writer">System.Resources.ResXResourceWriter, System.Windows.Forms, ...</resheader>
+    <data name="Name1"><value>this is my long string</value><comment>this is a comment</comment></data>
+    <data name="Color1" type="System.Drawing.Color, System.Drawing">Blue</data>
+    <data name="Bitmap1" mimetype="application/x-microsoft.net.object.binary.base64">
+        <value>[base64 mime encoded serialized .NET Framework object]</value>
+    </data>
+    <data name="Icon1" type="System.Drawing.Icon, System.Drawing" mimetype="application/x-microsoft.net.object.bytearray.base64">
+        <value>[base64 mime encoded string representing a byte array form of the .NET Framework object]</value>
+        <comment>This is a comment</comment>
+    </data>
+                
+    There are any number of "resheader" rows that contain simple 
+    name/value pairs.
+    
+    Each data row contains a name, and value. The row also contains a 
+    type or mimetype. Type corresponds to a .NET class that support 
+    text/value conversion through the TypeConverter architecture. 
+    Classes that don't support this are serialized and stored with the 
+    mimetype set.
+    
+    The mimetype is used for serialized objects, and tells the 
+    ResXResourceReader how to depersist the object. This is currently not 
+    extensible. For a given mimetype the value must be set accordingly:
+    
+    Note - application/x-microsoft.net.object.binary.base64 is the format 
+    that the ResXResourceWriter will generate, however the reader can 
+    read any of the formats listed below.
+    
+    mimetype: application/x-microsoft.net.object.binary.base64
+    value   : The object must be serialized with 
+            : System.Runtime.Serialization.Formatters.Binary.BinaryFormatter
+            : and then encoded with base64 encoding.
+    
+    mimetype: application/x-microsoft.net.object.soap.base64
+    value   : The object must be serialized with 
+            : System.Runtime.Serialization.Formatters.Soap.SoapFormatter
+            : and then encoded with base64 encoding.
+
+    mimetype: application/x-microsoft.net.object.bytearray.base64
+    value   : The object must be serialized into a byte array 
+            : using a System.ComponentModel.TypeConverter
+            : and then encoded with base64 encoding.
+    --><xsd:schema id="root" xmlns="" xmlns:xsd="http://www.w3.org/2001/XMLSchema" xmlns:msdata="urn:schemas-microsoft-com:xml-msdata">
+    <xsd:import namespace="http://www.w3.org/XML/1998/namespace" />
+    <xsd:element name="root" msdata:IsDataSet="true">
+      <xsd:complexType>
+        <xsd:choice maxOccurs="unbounded">
+          <xsd:element name="metadata">
+            <xsd:complexType>
+              <xsd:sequence>
+                <xsd:element name="value" type="xsd:string" minOccurs="0" />
+              </xsd:sequence>
+              <xsd:attribute name="name" use="required" type="xsd:string" />
+              <xsd:attribute name="type" type="xsd:string" />
+              <xsd:attribute name="mimetype" type="xsd:string" />
+              <xsd:attribute ref="xml:space" />
+            </xsd:complexType>
+          </xsd:element>
+          <xsd:element name="assembly">
+            <xsd:complexType>
+              <xsd:attribute name="alias" type="xsd:string" />
+              <xsd:attribute name="name" type="xsd:string" />
+            </xsd:complexType>
+          </xsd:element>
+          <xsd:element name="data">
+            <xsd:complexType>
+              <xsd:sequence>
+                <xsd:element name="value" type="xsd:string" minOccurs="0" msdata:Ordinal="1" />
+                <xsd:element name="comment" type="xsd:string" minOccurs="0" msdata:Ordinal="2" />
+              </xsd:sequence>
+              <xsd:attribute name="name" type="xsd:string" use="required" msdata:Ordinal="1" />
+              <xsd:attribute name="type" type="xsd:string" msdata:Ordinal="3" />
+              <xsd:attribute name="mimetype" type="xsd:string" msdata:Ordinal="4" />
+              <xsd:attribute ref="xml:space" />
+            </xsd:complexType>
+          </xsd:element>
+          <xsd:element name="resheader">
+            <xsd:complexType>
+              <xsd:sequence>
+                <xsd:element name="value" type="xsd:string" minOccurs="0" msdata:Ordinal="1" />
+              </xsd:sequence>
+              <xsd:attribute name="name" type="xsd:string" use="required" />
+            </xsd:complexType>
+          </xsd:element>
+        </xsd:choice>
+      </xsd:complexType>
+    </xsd:element>
+  </xsd:schema>
+  <resheader name="resmimetype">
+    <value>text/microsoft-resx</value>
+  </resheader>
+  <resheader name="version">
+    <value>2.0</value>
+  </resheader>
+  <resheader name="reader">
+    <value>System.Resources.ResXResourceReader, System.Windows.Forms, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
+  </resheader>
+  <resheader name="writer">
+    <value>System.Resources.ResXResourceWriter, System.Windows.Forms, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
+  </resheader>
+  <data name="ABOUT" xml:space="preserve">
+    <value>About</value>
+    <comment>Used in user menu on main navbar. (rpc 151105)</comment>
+  </data>
+  <data name="ABOUT.COPYRIGHT" xml:space="preserve">
+    <value>© 1993-2016 QlikTech International AB</value>
+    <comment>Used in about dialog. (rpc 151105)</comment>
+  </data>
+  <data name="ABOUT.VERSION" xml:space="preserve">
+    <value>Version: {{version}}</value>
+    <comment>Used in about dialog. (rpc 151105)</comment>
+  </data>
+  <data name="ACCOUNT.DOMAIN" xml:space="preserve">
+    <value>Domain</value>
+    <comment>(ext_rwe 150825)</comment>
+  </data>
+  <data name="ACCOUNT.USERNAME" xml:space="preserve">
+    <value>Username</value>
+    <comment>(ext_rwe 150825)</comment>
+  </data>
+  <data name="ACTION.ADD" xml:space="preserve">
+    <value>Add</value>
+    <comment>(ext_rwe 150825)</comment>
+  </data>
+  <data name="ACTION.ADD.ENGINE" xml:space="preserve">
+    <value>Add engine</value>
+    <comment>(ext_rwe 150825)</comment>
+  </data>
+  <data name="ACTION.ADD.FIELD" xml:space="preserve">
+    <value>Add field</value>
+    <comment>(ext_rwe 150825)</comment>
+  </data>
+  <data name="ACTION.ADD.FILTERS" xml:space="preserve">
+    <value>Add filters</value>
+    <comment>(ext_rwe 150825)</comment>
+  </data>
+  <data name="ACTION.ADD.RECIPIENT" xml:space="preserve">
+    <value>Add recipient</value>
+    <comment>(ext_rwe 150825)</comment>
+  </data>
+  <data name="ACTION.ADD.REPORT" xml:space="preserve">
+    <value>Add report</value>
+    <comment>(ext_rwe 150825)</comment>
+  </data>
+  <data name="ACTION.ALL.APPS" xml:space="preserve">
+    <value>All apps</value>
+    <comment>(ext_rwe 150825)</comment>
+  </data>
+  <data name="ACTION.COPY" xml:space="preserve">
+    <value>Copy</value>
+    <comment>(ext_rwe 150825)</comment>
+  </data>
+  <data name="ACTION.CREATE" xml:space="preserve">
+    <value>Create</value>
+    <comment>(ext_rwe 150825)</comment>
+  </data>
+  <data name="ACTION.CREATE.APP" xml:space="preserve">
+    <value>Create app</value>
+    <comment>(ext_rwe 150825)</comment>
+  </data>
+  <data name="ACTION.CREATE.CONNECTION" xml:space="preserve">
+    <value>Create connection</value>
+    <comment>(ext_rwe 150825)</comment>
+  </data>
+  <data name="ACTION.CREATE.EMAIL.MESSAGE" xml:space="preserve">
+    <value>Create e-mail message</value>
+    <comment>(ext_rwe 150825)</comment>
+  </data>
+  <data name="ACTION.CREATE.FIELD" xml:space="preserve">
+    <value>Create field</value>
+    <comment>(ext_rwe 150825)</comment>
+  </data>
+  <data name="ACTION.CREATE.FILTER" xml:space="preserve">
+    <value>Create filter</value>
+    <comment>(ext_rwe 150825)</comment>
+  </data>
+  <data name="ACTION.CREATE.FOLDER" xml:space="preserve">
+    <value>Create folder</value>
+    <comment>(ext_rwe 150825)</comment>
+  </data>
+  <data name="ACTION.CREATE.GROUP" xml:space="preserve">
+    <value>Create group</value>
+    <comment>(ext_rwe 150825)</comment>
+  </data>
+  <data name="ACTION.CREATE.NEW.APPS" xml:space="preserve">
+    <value>Create new apps</value>
+    <comment>(ext_rwe 150825)</comment>
+  </data>
+  <data name="ACTION.CREATE.REPORT" xml:space="preserve">
+    <value>Create report</value>
+    <comment>(ext_rwe 150825)</comment>
+  </data>
+  <data name="ACTION.CREATE.ROLE" xml:space="preserve">
+    <value>Create role</value>
+    <comment>(ext_rwe 150825)</comment>
+  </data>
+  <data name="ACTION.CREATE.TASK" xml:space="preserve">
+    <value>Create task</value>
+    <comment>(ext_rwe 150825)</comment>
+  </data>
+  <data name="ACTION.CREATE.TASK.PUBLISH" xml:space="preserve">
+    <value>Create publish task</value>
+    <comment>(ext_rwe 150825)</comment>
+  </data>
+  <data name="ACTION.CREATE.TRIGGER" xml:space="preserve">
+    <value>Create trigger</value>
+    <comment>(ext_rwe 150825)</comment>
+  </data>
+  <data name="ACTION.CREATE.TRIGGER.FOR.TASK" xml:space="preserve">
+    <value>Create trigger for task {{name}}</value>
+    <comment>(ext_rwe 150825)</comment>
+  </data>
+  <data name="ACTION.CREATE.USER" xml:space="preserve">
+    <value>Create user</value>
+    <comment>(ext_rwe 150825)</comment>
+  </data>
+  <data name="ACTION.DELETE" xml:space="preserve">
+    <value>Delete</value>
+    <comment>(ext_rwe 150825)</comment>
+  </data>
+  <data name="ACTION.DISABLE" xml:space="preserve">
+    <value>Disable</value>
+    <comment>(ext_rwe 150825)</comment>
+  </data>
+  <data name="ACTION.EDIT" xml:space="preserve">
+    <value>Edit</value>
+    <comment>(ext_rwe 150825)</comment>
+  </data>
+  <data name="ACTION.EDIT.ENGINE" xml:space="preserve">
+    <value>Edit engine</value>
+    <comment>(ext_rwe 150825)</comment>
+  </data>
+  <data name="ACTION.EDIT.USER.DETAILS" xml:space="preserve">
+    <value>Edit user details</value>
+    <comment>(ext_rwe 150825)</comment>
+  </data>
+  <data name="ACTION.ENABLE" xml:space="preserve">
+    <value>Enable</value>
+    <comment>(ext_rwe 150825)</comment>
+  </data>
+  <data name="ACTION.KILL" xml:space="preserve">
+    <value>Kill</value>
+    <comment>(ext_rwe 150825)</comment>
+  </data>
+  <data name="ACTION.REMOVE" xml:space="preserve">
+    <value>Remove</value>
+    <comment>(ext_rwe 150825)</comment>
+  </data>
+  <data name="ACTION.SAVE" xml:space="preserve">
+    <value>Save</value>
+    <comment>(ext_rwe 150825)</comment>
+  </data>
+  <data name="ACTION.UPDATE.EMAIL.SETTINGS" xml:space="preserve">
+    <value>Update e-mail settings</value>
+    <comment>(ext_rwe 150825)</comment>
+  </data>
+  <data name="ACTION.UPDATE.NEWSSTAND.SETTINGS" xml:space="preserve">
+    <value>Update NewsStand settings</value>
+    <comment>(ext_rwe 150825)</comment>
+  </data>
+  <data name="ACTION.UPDATE.USER.ROLES" xml:space="preserve">
+    <value>Update user roles</value>
+    <comment>Update security roles button for users/roles (rpc 150903)</comment>
+  </data>
+  <data name="ACTION.UPDATE.USER.GROUPS" xml:space="preserve">
+    <value>Update user groups</value>
+    <comment>(ext_rwe 150825)</comment>
+  </data>
+  <data name="ACTIONS" xml:space="preserve">
+    <value>Actions</value>
+    <comment>(ext_rwe 150825)</comment>
+  </data>
+  <data name="ACUTE.SELECT.HELP.SEARCH" xml:space="preserve">
+    <value>Search</value>
+    <comment>(ext_rwe 150825)</comment>
+  </data>
+  <data name="ACUTE.SELECT.ITEMS.NONE" xml:space="preserve">
+    <value>No items found.</value>
+    <comment>Used in select, when no items match the searched input. (rpc 150903)</comment>
+  </data>
+  <data name="ADMIN" xml:space="preserve">
+    <value>Admin</value>
+    <comment>(ext_rwe 150825)</comment>
+  </data>
+  <data name="ADMIN.SETTINGS" xml:space="preserve">
+    <value>Settings</value>
+    <comment>(ext_rwe 150825)</comment>
+  </data>
+  <data name="ADMIN.SETTINGS.AUTHENTICATION.SAVE.SUCCESS" xml:space="preserve">
+    <value>Authentication settings have been successfully saved.</value>
+    <comment>(ext_rwe 150825)</comment>
+  </data>
+  <data name="ADMIN.SETTINGS.NEWSSTAND.SAVE.SUCCESS" xml:space="preserve">
+    <value>NewsStand customization settings have been successfully saved.</value>
+    <comment>(ext_rwe 150825)</comment>
+  </data>
+  <data name="ALL.APPS" xml:space="preserve">
+    <value>All apps</value>
+    <comment>(ext_rwe 150825)</comment>
+  </data>
+  <data name="ALL.CONNECTIONS" xml:space="preserve">
+    <value>All connections</value>
+    <comment>(ext_rwe 150825)</comment>
+  </data>
+  <data name="ALL.ENGINES" xml:space="preserve">
+    <value>All engines</value>
+    <comment>(ext_rwe 150825)</comment>
+  </data>
+  <data name="ALL.FOLDERS" xml:space="preserve">
+    <value>All folders</value>
+    <comment>(ext_rwe 150825)</comment>
+  </data>
+  <data name="ALL.REPORTS" xml:space="preserve">
+    <value>All reports</value>
+    <comment>(ext_rwe 150825)</comment>
+  </data>
+  <data name="ALL.ROLES" xml:space="preserve">
+    <value>All roles</value>
+    <comment>(ext_rwe 150825)</comment>
+  </data>
+  <data name="ALL.TIME" xml:space="preserve">
+    <value>All time</value>
+    <comment>(ext_rwe 150825)</comment>
+  </data>
+  <data name="AND" xml:space="preserve">
+    <value>And</value>
+    <comment>(ext_rwe 150825)</comment>
+  </data>
+  <data name="APP" xml:space="preserve">
+    <value>App</value>
+    <comment>(ext_rwe 150825)</comment>
+  </data>
+  <data name="APP.DESCRIPTION" xml:space="preserve">
+    <value>App description</value>
+    <comment>(ext_rwe 150825)</comment>
+  </data>
+  <data name="APPS" xml:space="preserve">
+    <value>Apps</value>
+    <comment>(ext_rwe 150825)</comment>
+  </data>
+  <data name="AUTHENTICATION.GOOGLE" xml:space="preserve">
+    <value>Google authentication</value>
+    <comment>(ext_rwe 150825)</comment>
+  </data>
+  <data name="AUTHENTICATION.GOOGLE.CLIENT.ID" xml:space="preserve">
+    <value>Google OAuth clientid</value>
+    <comment>(ext_rwe 150825)</comment>
+  </data>
+  <data name="AUTHENTICATION.GOOGLE.CLIENT.SECRET" xml:space="preserve">
+    <value>Google OAuth client secret</value>
+    <comment>(ext_rwe 150825)</comment>
+  </data>
+  <data name="AUTHENTICATION.NPRINTING.LABEL" xml:space="preserve">
+    <value>{{productName}} authentication</value>
+    <comment>(ext_rwe 150825)</comment>
+  </data>
+  <data name="AUTHENTICATION.UPDATE.SETTINGS" xml:space="preserve">
+    <value>Update authentication settings</value>
+    <comment>(ext_rwe 150825)</comment>
+  </data>
+  <data name="AUTHENTICATION.WINDOWS" xml:space="preserve">
+    <value>Windows authentication</value>
+    <comment>(ext_rwe 150825)</comment>
+  </data>
+  <data name="BETWEEN" xml:space="preserve">
+    <value>Between</value>
+    <comment>(ext_rwe 150825)</comment>
+  </data>
+  <data name="BUTTON.BACK" xml:space="preserve">
+    <value>Back</value>
+    <comment>(ext_rwe 150825)</comment>
+  </data>
+  <data name="BUTTON.CANCEL" xml:space="preserve">
+    <value>Cancel</value>
+    <comment>(ext_rwe 150825)</comment>
+  </data>
+  <data name="BUTTON.CLOSE" xml:space="preserve">
+    <value>Close</value>
+    <comment>(ext_rwe 150825)</comment>
+  </data>
+  <data name="BUTTON.EDITTEMPLATE" xml:space="preserve">
+    <value>Edit template</value>
+    <comment>(ext_rwe 150825)</comment>
+  </data>
+  <data name="BUTTON.LOGIN" xml:space="preserve">
+    <value>Log in</value>
+    <comment>(ext_rwe 150825)</comment>
+  </data>
+  <data name="BUTTON.LOGOUT" xml:space="preserve">
+    <value>Log out</value>
+    <comment>(ext_rwe 150825)</comment>
+  </data>
+  <data name="BUTTON.NEXT" xml:space="preserve">
+    <value>Next</value>
+    <comment>(ext_rwe 150825)</comment>
+  </data>
+  <data name="BUTTON.NO" xml:space="preserve">
+    <value>No</value>
+    <comment>(ext_rwe 150825)</comment>
+  </data>
+  <data name="BUTTON.OK" xml:space="preserve">
+    <value>OK</value>
+    <comment>(ext_rwe 150825)</comment>
+  </data>
+  <data name="BUTTON.PREVIOUS" xml:space="preserve">
+    <value>Previous</value>
+    <comment>(ext_rwe 150825)</comment>
+  </data>
+  <data name="BUTTON.YES" xml:space="preserve">
+    <value>Yes</value>
+    <comment>(ext_rwe 150825)</comment>
+  </data>
+  <data name="CHANGE.DOMAIN.ACCOUNT" xml:space="preserve">
+    <value>Change domain account</value>
+    <comment>(ext_rwe 150825)</comment>
+  </data>
+  <data name="CHOOSE.ACTION" xml:space="preserve">
+    <value>Choose action</value>
+    <comment>(ext_rwe 150825)</comment>
+  </data>
+  <data name="CHOOSE.APP" xml:space="preserve">
+    <value>Choose app</value>
+    <comment>(ext_rwe 150825)</comment>
+  </data>
+  <data name="CHOOSE.CONNECTION" xml:space="preserve">
+    <value>Choose connection</value>
+    <comment>(ext_rwe 150825)</comment>
+  </data>
+  <data name="CHOOSE.FORMAT" xml:space="preserve">
+    <value>Choose format</value>
+    <comment>(ext_rwe 150825)</comment>
+  </data>
+  <data name="CHOOSE.LOCALE" xml:space="preserve">
+    <value>Choose locale</value>
+    <comment>(ext_rwe 150825)</comment>
+  </data>
+  <data name="CHOOSE.RECIPIENT" xml:space="preserve">
+    <value>Choose recipient</value>
+    <comment>(ext_rwe 150825)</comment>
+  </data>
+  <data name="CHOOSE.REPORT" xml:space="preserve">
+    <value>Choose report</value>
+    <comment>(ext_rwe 150825)</comment>
+  </data>
+  <data name="CHOOSE.TAG" xml:space="preserve">
+    <value>Choose tag</value>
+    <comment>(ext_rwe 150825)</comment>
+  </data>
+  <data name="CHOOSE.TIMEZONE" xml:space="preserve">
+    <value>Choose timezone</value>
+    <comment>(ext_rwe 150825)</comment>
+  </data>
+  <data name="CHOOSE.USER" xml:space="preserve">
+    <value>Choose user</value>
+    <comment>(ext_rwe 150825)</comment>
+  </data>
+  <data name="CONNECTION" xml:space="preserve">
+    <value>Connection</value>
+    <comment>(ext_rwe 150825)</comment>
+  </data>
+  <data name="CONNECTION.CACHE.REGEN.ERROR" xml:space="preserve">
+    <value>Something went wrong when reloading metadata for connection '{{id}}'.</value>
+    <comment>(ext_rwe 150825)</comment>
+  </data>
+  <data name="CONNECTION.CACHE.REGEN.SUCCESS" xml:space="preserve">
+    <value>Reloading metadata for connection '{{id}}'.</value>
+    <comment>(ext_rwe 150825)</comment>
+  </data>
+  <data name="CONNECTION.CACHE.STATUS" xml:space="preserve">
+    <value>Cache status</value>
+    <comment>(ext_rwe 150825)</comment>
+  </data>
+  <data name="CONNECTION.CACHE.STATUS.GENERATED" xml:space="preserve">
+    <value>Generated</value>
+    <comment>Label for connection status cache is generated (rpc 150910)</comment>
+  </data>
+  <data name="CONNECTION.CACHE.STATUS.GENERATING" xml:space="preserve">
+    <value>Generating</value>
+    <comment>Label for connection status generating cache (rpc 150910)</comment>
+  </data>
+  <data name="CONNECTION.CACHE.STATUS.ERROR" xml:space="preserve">
+    <value>Error</value>
+    <comment>Label for connection status error in generating cache (rpc 150910)</comment>
+  </data>
+  <data name="CONNECTION.CACHE.STATUS.NEVER.GENERATED" xml:space="preserve">
+    <value>Never generated</value>
+    <comment>Label for cache connection status never generated (rpc 150910)</comment>
+  </data>
+  <data name="CONNECTION.DESCRIPTION" xml:space="preserve">
+    <value>Connection description</value>
+    <comment>(ext_rwe 150825)</comment>
+  </data>
+  <data name="CONNECTION.DOCUMENT.NAME" xml:space="preserve">
+    <value>Document name</value>
+    <comment>(ext_rwe 150825)</comment>
+  </data>
+  <data name="CONNECTION.DOCUMENT.PATH" xml:space="preserve">
+    <value>Document path</value>
+    <comment>(ext_rwe 150825)</comment>
+  </data>
+  <data name="CONNECTION.LAST.CACHE.UPDATE" xml:space="preserve">
+    <value>Last cache update</value>
+    <comment>(ext_rwe 150825)</comment>
+  </data>
+  <data name="CONNECTION.PASSWORD" xml:space="preserve">
+    <value>Password</value>
+    <comment>(ext_rwe 150825)</comment>
+  </data>
+  <data name="CONNECTION.QVP" xml:space="preserve">
+    <value>qvp://</value>
+    <comment>(ext_rwe 150825)</comment>
+  </data>
+  <data name="CONNECTION.RELOAD.CACHE" xml:space="preserve">
+    <value>Reload metadata</value>
+    <comment>(ext_rwe 150825)</comment>
+  </data>
+  <data name="CONNECTION.STATUS.DESCRIPTION" xml:space="preserve">
+    <value>Status description</value>
+    <comment>(ext_rwe 150825)</comment>
+  </data>
+  <data name="CONNECTION.USERNAME" xml:space="preserve">
+    <value>Username</value>
+    <comment>(ext_rwe 150825)</comment>
+  </data>
+  <data name="CONNECTIONS" xml:space="preserve">
+    <value>Connections</value>
+    <comment>(ext_rwe 150825)</comment>
+  </data>
+  <data name="CRUD.DELETE.ERROR" xml:space="preserve">
+    <value>Something went wrong when deleting item '{{id}}'.</value>
+    <comment>(ext_rwe 150825)</comment>
+  </data>
+  <data name="CRUD.EMAIL.SETTINGS.SAVE.ERROR" xml:space="preserve">
+    <value>Something went wrong when updating e-mail settings.</value>
+    <comment>(ext_rwe 150825)</comment>
+  </data>
+  <data name="CRUD.EMAIL.SETTINGS.SAVE.SUCCESS" xml:space="preserve">
+    <value>E-mail settings updated successfully.</value>
+    <comment>(ext_rwe 150825)</comment>
+  </data>
+  <data name="CRUD.FILTER.CREATE.SUCCESS" xml:space="preserve">
+    <value>Filter '{{id}}' was created successfully.</value>
+    <comment>(ext_rwe 150825)</comment>
+  </data>
+  <data name="CRUD.FOLDER.SAVE.ERROR" xml:space="preserve">
+    <value>Something went wrong when saving folder '{{id}}'.</value>
+    <comment>(ext_rwe 150825)</comment>
+  </data>
+  <data name="CRUD.REPORT.CREATE.SUCCESS" xml:space="preserve">
+    <value>Report '{{id}}' was created successfully.</value>
+    <comment>(ext_rwe 150825)</comment>
+  </data>
+  <data name="CRUD.REPORT.REMOVE.ERROR" xml:space="preserve">
+    <value>Something went wrong when removing report with id '{{id}}'.</value>
+    <comment>(ext_rwe 150825)</comment>
+  </data>
+  <data name="CRUD.SAVE.ERROR" xml:space="preserve">
+    <value>Something went wrong when saving item '{{id}}'.</value>
+    <comment>(ext_rwe 150825)</comment>
+  </data>
+  <data name="CRUD.SAVE.SUCCESS" xml:space="preserve">
+    <value>Items were updated successfully.</value>
+    <comment>(ext_rwe 150825)</comment>
+  </data>
+  <data name="CRUD.TASK.CREATE.SUCCESS" xml:space="preserve">
+    <value>Task '{{id}}' was created successfully.</value>
+    <comment>(ext_rwe 150825)</comment>
+  </data>
+  <data name="CRUD.TASK.SAVE.ERROR" xml:space="preserve">
+    <value>Something went wrong when saving the task with id '{{id}}'.</value>
+    <comment>(ext_rwe 150825)</comment>
+  </data>
+  <data name="CRUD.USER.SAVE.SUCCESS" xml:space="preserve">
+    <value>User '{{id}}' was saved successfully.</value>
+    <comment>(ext_rwe 150825)</comment>
+  </data>
+  <data name="CUSTOM" xml:space="preserve">
+    <value>Custom</value>
+    <comment>(ext_rwe 150825)</comment>
+  </data>
+  <data name="CUSTOMIZATION.COLORS" xml:space="preserve">
+    <value>Colors</value>
+    <comment>(ext_rwe 150825)</comment>
+  </data>
+  <data name="CUSTOMIZATION.HEADER.COLOR" xml:space="preserve">
+    <value>Header color</value>
+    <comment>(ext_rwe 150825)</comment>
+  </data>
+  <data name="CUSTOMIZATION.LINKS.COLOR" xml:space="preserve">
+    <value>Links color</value>
+    <comment>(ext_rwe 150825)</comment>
+  </data>
+  <data name="CUSTOMIZATION.LOGO" xml:space="preserve">
+    <value>Logo</value>
+    <comment>(ext_rwe 150825)</comment>
+  </data>
+  <data name="CUSTOMIZATION.LOGO.PREVIEW" xml:space="preserve">
+    <value>Logo preview</value>
+    <comment>(ext_rwe 150825)</comment>
+  </data>
+  <data name="CUSTOMIZATION.NEWSSTAND.LOGO" xml:space="preserve">
+    <value>NewsStand logo</value>
+    <comment>(ext_rwe 150825)</comment>
+  </data>
+  <data name="CUSTOMIZATION.PRIMARY.COLOR" xml:space="preserve">
+    <value>Primary color</value>
+    <comment>(ext_rwe 150825)</comment>
+  </data>
+  <data name="CUSTOMIZATION.REMOVE.LOGO" xml:space="preserve">
+    <value>Remove logo</value>
+    <comment>(ext_rwe 150825)</comment>
+  </data>
+  <data name="CUSTOMIZATION.RESTORE.DEFAULT.COLORS" xml:space="preserve">
+    <value>Restore default colors</value>
+    <comment>Used as button text, in NewsStand settings page (RPC150923)</comment>
+  </data>
+  <data name="DASHBOARD" xml:space="preserve">
+    <value>Dashboard</value>
+    <comment>(ext_rwe 150825)</comment>
+  </data>
+  <data name="DEFAULT" xml:space="preserve">
+    <value>Default</value>
+    <comment>(ext_rwe 150825)</comment>
+  </data>
+  <data name="DESTINATION" xml:space="preserve">
+    <value>Destination</value>
+    <comment>(ext_rwe 150825)</comment>
+  </data>
+  <data name="DESTINATIONS" xml:space="preserve">
+    <value>Destinations</value>
+    <comment>(ext_rwe 150825)</comment>
+  </data>
+  <data name="DETAILS" xml:space="preserve">
+    <value>Details</value>
+    <comment>(ext_rwe 150825)</comment>
+  </data>
+  <data name="DOMAIN.ACCOUNT" xml:space="preserve">
+    <value>Domain account</value>
+    <comment>(ext_rwe 150825)</comment>
+  </data>
+  <data name="DOUBLE.LIST.AVAILABLE.ITEMS" xml:space="preserve">
+    <value>Available items</value>
+    <comment>(ext_rwe 150825)</comment>
+  </data>
+  <data name="DOUBLE.LIST.HELP.SEARCH" xml:space="preserve">
+    <value>Search</value>
+    <comment>(ext_rwe 150825)</comment>
+  </data>
+  <data name="DOUBLE.LIST.SELECTED.ITEMS" xml:space="preserve">
+    <value>Selected items</value>
+    <comment>(ext_rwe 150825)</comment>
+  </data>
+  <data name="DOWNLOAD" xml:space="preserve">
+    <value>Download</value>
+    <comment>(ext_rwe 150825)</comment>
+  </data>
+  <data name="EMAIL" xml:space="preserve">
+    <value>E-mail</value>
+    <comment>(ext_rwe 150825)</comment>
+  </data>
+  <data name="EMAIL.ALL.REPORTS.ATTACHED" xml:space="preserve">
+    <value>All reports attached</value>
+    <comment>(rpc 150910)</comment>
+  </data>
+  <data name="EMAIL.ATTACH.TO.EMAIL" xml:space="preserve">
+    <value>Attach to e-mail</value>
+    <comment>(ext_rwe 150825)</comment>
+  </data>
+  <data name="EMAIL.ATTACHMENT" xml:space="preserve">
+    <value>Attachment</value>
+    <comment>(ext_rwe 150825)</comment>
+  </data>
+  <data name="EMAIL.ATTACHMENTS" xml:space="preserve">
+    <value>Attachments</value>
+    <comment>(ext_rwe 150825)</comment>
+  </data>
+  <data name="EMAIL.BCC" xml:space="preserve">
+    <value>BCC</value>
+    <comment>(ext_rwe 150825)</comment>
+  </data>
+  <data name="EMAIL.BODY" xml:space="preserve">
+    <value>Body</value>
+    <comment>(ext_rwe 150825)</comment>
+  </data>
+  <data name="EMAIL.CC" xml:space="preserve">
+    <value>CC</value>
+    <comment>(ext_rwe 150825)</comment>
+  </data>
+  <data name="EMAIL.CHOOSE.ATTACHMENTS" xml:space="preserve">
+    <value>Choose attachments</value>
+    <comment>(rpc 150910)</comment>
+  </data>
+  <data name="EMAIL.CONFIGURATION.NULL.ERROR" xml:space="preserve">
+    <value>You must configure an SMTP server before e-mails can be delivered.</value>
+    <comment>(ext_rwe 150825)</comment>
+  </data>
+  <data name="EMAIL.DEFAULT.SENDER" xml:space="preserve">
+    <value>Default sender</value>
+    <comment>(ext_rwe 150825)</comment>
+  </data>
+  <data name="EMAIL.FORMAT" xml:space="preserve">
+    <value>Format</value>
+    <comment>(ext_rwe 150825)</comment>
+  </data>
+  <data name="EMAIL.FORMAT.HTML" xml:space="preserve">
+    <value>HTML</value>
+    <comment>(ext_rwe 150825)</comment>
+  </data>
+  <data name="EMAIL.FORMAT.TEXT" xml:space="preserve">
+    <value>Text</value>
+    <comment>(ext_rwe 150825)</comment>
+  </data>
+  <data name="EMAIL.FROM" xml:space="preserve">
+    <value>From</value>
+    <comment>(ext_rwe 150825)</comment>
+  </data>
+  <data name="EMAIL.HELP.ALL.REPORT.ATTACHED" xml:space="preserve">
+    <value>All reports will be attached to e-mail.</value>
+    <comment>(ext_rwe 150825)</comment>
+  </data>
+  <data name="EMAIL.HELP.BCC" xml:space="preserve">
+    <value>List of BCC e-mail addresses separated by semicolon.</value>
+    <comment>(ext_rwe 150825)</comment>
+  </data>
+  <data name="EMAIL.HELP.CC" xml:space="preserve">
+    <value>List of CC e-mail addresses separated by semicolon.</value>
+    <comment>(ext_rwe 150825)</comment>
+  </data>
+  <data name="EMAIL.HELP.EMAIL.CONFIGURATION" xml:space="preserve">
+    <value>Configure default e-mail in e-mail settings.</value>
+    <comment>(ext_rwe 150825)</comment>
+  </data>
+  <data name="EMAIL.HELP.NO.ATTACHMENTS" xml:space="preserve">
+    <value>No report will be attached to e-mail.</value>
+    <comment>(ext_rwe 150825)</comment>
+  </data>
+  <data name="EMAIL.MESSAGE" xml:space="preserve">
+    <value>E-mail message</value>
+    <comment>(ext_rwe 150825)</comment>
+  </data>
+  <data name="EMAIL.SETTINGS.NULL.ERROR" xml:space="preserve">
+    <value>You must configure e-mail settings before e-mails can be delivered.</value>
+    <comment>(ext_rwe 150825)</comment>
+  </data>
+  <data name="EMAIL.SUBJECT" xml:space="preserve">
+    <value>Subject</value>
+    <comment>(ext_rwe 150825)</comment>
+  </data>
+  <data name="EMAIL.TO" xml:space="preserve">
+    <value>To</value>
+    <comment>(ext_rwe 150825)</comment>
+  </data>
+  <data name="EMAIL.TO.SELECTED.USERS" xml:space="preserve">
+    <value>Selected users</value>
+    <comment>Option for email receiver select in tasks/publish/GUID/email-message (rpc 150910)</comment>
+  </data>
+  <data name="EMAIL.TO.SELECTED.USERS.AND.CC.BCC" xml:space="preserve">
+    <value>Selected users and CC/BCC</value>
+    <comment>Option for email receiver select in tasks/publish/GUID/email-message (rpc 150910)</comment>
+  </data>
+  <data name="ENGINE" xml:space="preserve">
+    <value>Engine</value>
+    <comment>(ext_rwe 150825)</comment>
+  </data>
+  <data name="ENGINE.CPU.USAGE" xml:space="preserve">
+    <value>CPU usage</value>
+    <comment>(ext_rwe 150825)</comment>
+  </data>
+  <data name="ENGINE.MANAGER" xml:space="preserve">
+    <value>Engine manager</value>
+    <comment>(ext_rwe 150825)</comment>
+  </data>
+  <data name="ENGINE.MEMORY.USAGE" xml:space="preserve">
+    <value>Memory usage</value>
+    <comment>(ext_rwe 150825)</comment>
+  </data>
+  <data name="ENGINE.STATUS.IDLE" xml:space="preserve">
+    <value>Idle</value>
+    <comment>Used as value of column 'status' in Engine Manager page. (rpc 150910)</comment>
+  </data>
+  <data name="ENGINE.STATUS.OFFLINE" xml:space="preserve">
+    <value>Offline</value>
+    <comment>Used as value of column 'status' in Engine Manager page. (rpc 150910)</comment>
+  </data>
+  <data name="ENGINE.STATUS.RUNNING" xml:space="preserve">
+    <value>Running</value>
+    <comment>Used as value of column 'status' in Engine Manager page. (rpc 150910)</comment>
+  </data>
+  <data name="ENGINES" xml:space="preserve">
+    <value>Engines</value>
+    <comment>(ext_rwe 150825)</comment>
+  </data>
+  <data name="ERROR" xml:space="preserve">
+    <value>Error</value>
+    <comment>(ext_rwe 150825)</comment>
+  </data>
+  <data name="ERROR.EMAIL.INVALID" xml:space="preserve">
+    <value>Please enter a valid e-mail address.</value>
+    <comment>(ext_rwe 150825)</comment>
+  </data>
+  <data name="ERROR.EMAIL.NOT.AVAILABLE" xml:space="preserve">
+    <value>This e-mail address is not available. Please enter another.</value>
+    <comment>(ext_rwe 150825)</comment>
+  </data>
+  <data name="ERROR.PASSWORD.REPEAT" xml:space="preserve">
+    <value>Passwords do not match.</value>
+    <comment>(ext_rwe 150825)</comment>
+  </data>
+  <data name="ERRORS.CACHE.SEARCH" xml:space="preserve">
+    <value>Something went wrong while loading values for field '{{id}}'.</value>
+    <comment>(ext_rwe 150825)</comment>
+  </data>
+  <data name="ERRORS.REQUIRED.FIELD" xml:space="preserve">
+    <value>This field is required.</value>
+    <comment>(ext_rwe 150825)</comment>
+  </data>
+  <data name="ERRORS.ROUTE.CHANGE.ERROR" xml:space="preserve">
+    <value>Error trying to open the page.</value>
+    <comment>(ext_rwe 150825)</comment>
+  </data>
+  <data name="F.ADDRESS" xml:space="preserve">
+    <value>Address</value>
+    <comment>(ext_rwe 150825)</comment>
+  </data>
+  <data name="F.CREATED" xml:space="preserve">
+    <value>Created</value>
+    <comment>(ext_rwe 150825)</comment>
+  </data>
+  <data name="F.DATE" xml:space="preserve">
+    <value>Date</value>
+    <comment>(ext_rwe 150825)</comment>
+  </data>
+  <data name="F.DESCRIPTION" xml:space="preserve">
+    <value>Description</value>
+    <comment>(ext_rwe 150825)</comment>
+  </data>
+  <data name="F.DISABLED" xml:space="preserve">
+    <value>Disabled</value>
+    <comment>(ext_rwe 150825)</comment>
+  </data>
+  <data name="F.ENABLED" xml:space="preserve">
+    <value>Enabled</value>
+    <comment>(ext_rwe 150825)</comment>
+  </data>
+  <data name="F.LAST.UPDATED" xml:space="preserve">
+    <value>Last updated</value>
+    <comment>(ext_rwe 150825)</comment>
+  </data>
+  <data name="F.NAME" xml:space="preserve">
+    <value>Name</value>
+    <comment>(ext_rwe 150825)</comment>
+  </data>
+  <data name="F.ONCE.AT" xml:space="preserve">
+    <value>Once at</value>
+    <comment>(ext_rwe 150825)</comment>
+  </data>
+  <data name="F.PASSWORD" xml:space="preserve">
+    <value>Password</value>
+    <comment>(ext_rwe 150825)</comment>
+  </data>
+  <data name="F.PATH" xml:space="preserve">
+    <value>Path</value>
+    <comment>(ext_rwe 150825)</comment>
+  </data>
+  <data name="F.STATUS" xml:space="preserve">
+    <value>Status</value>
+    <comment>(ext_rwe 150825)</comment>
+  </data>
+  <data name="F.TIME" xml:space="preserve">
+    <value>Time</value>
+    <comment>(ext_rwe 150825)</comment>
+  </data>
+  <data name="F.TITLE" xml:space="preserve">
+    <value>Title</value>
+    <comment>(ext_rwe 150825)</comment>
+  </data>
+  <data name="F.UPDATED" xml:space="preserve">
+    <value>Updated</value>
+    <comment>(ext_rwe 150825)</comment>
+  </data>
+  <data name="F.USERNAME" xml:space="preserve">
+    <value>Username</value>
+    <comment>(ext_rwe 150825)</comment>
+  </data>
+  <data name="FIELD" xml:space="preserve">
+    <value>Field</value>
+    <comment>(ext_rwe 150825)</comment>
+  </data>
+  <data name="FIELD.ADD.VALUE" xml:space="preserve">
+    <value>Add value</value>
+    <comment>(ext_rwe 150825)</comment>
+  </data>
+  <data name="FIELD.CACHE.NOT.AVAILABLE" xml:space="preserve">
+    <value>You must generate the cache for the connection before adding fields to filter.</value>
+    <comment>(ext_rwe 150825)</comment>
+  </data>
+  <data name="FIELD.FULLY.CACHED" xml:space="preserve">
+    <value>Fully cached</value>
+    <comment>(ext_rwe 150825)</comment>
+  </data>
+  <data name="FIELD.OVERRIDE.VALUES" xml:space="preserve">
+    <value>Override values</value>
+    <comment>Used in edit filter field page. (rpc 151001)</comment>
+  </data>
+  <data name="FIELD.SEARCH" xml:space="preserve">
+    <value>Search</value>
+    <comment>(ext_rwe 150825)</comment>
+  </data>
+  <data name="FIELD.SEARCH.COMPLETED" xml:space="preserve">
+    <value>Search completed</value>
+    <comment>(ext_rwe 150825)</comment>
+  </data>
+  <data name="FIELD.SEARCH.STARTED" xml:space="preserve">
+    <value>Search started</value>
+    <comment>(ext_rwe 150825)</comment>
+  </data>
+  <data name="FIELD.TYPES.EVALUATE.VALUE" xml:space="preserve">
+    <value>Evaluate value</value>
+    <comment>Used in filter fields values select. (rpc 150903)</comment>
+  </data>
+  <data name="FIELD.TYPES.NUMERIC.VALUE.IS" xml:space="preserve">
+    <value>Numeric value is</value>
+    <comment>Used in filter fields values select. (rpc 150903)</comment>
+  </data>
+  <data name="FIELD.TYPES.VALUE.IS" xml:space="preserve">
+    <value>Value is</value>
+    <comment>Used in filter fields values select. (rpc 150903)</comment>
+  </data>
+  <data name="FIELD.VALUES" xml:space="preserve">
+    <value>Values</value>
+    <comment>(ext_rwe 150825)</comment>
+  </data>
+  <data name="FIELDS" xml:space="preserve">
+    <value>Fields</value>
+    <comment>(ext_rwe 150825)</comment>
+  </data>
+  <data name="FILTER" xml:space="preserve">
+    <value>Filter</value>
+    <comment>(ext_rwe 150825)</comment>
+  </data>
+  <data name="FILTER.DESCRIPTION" xml:space="preserve">
+    <value>Filter description</value>
+    <comment>(ext_rwe 150825)</comment>
+  </data>
+  <data name="FILTER.UNUSED" xml:space="preserve">
+    <value>Not yet used</value>
+    <comment>(ext_rwe 150825)</comment>
+  </data>
+  <data name="FILTER.USED" xml:space="preserve">
+    <value>Used by users</value>
+    <comment>(ext_rwe 150825)</comment>
+  </data>
+  <data name="FILTER.PRIORITY" xml:space="preserve">
+    <value>Filter priority</value>
+    <comment>Title for filters sorting in filter association.(rpc 151005)</comment>
+  </data>
+  <data name="FILTER.PRIORITY.FILTERS.NONE" xml:space="preserve">
+    <value>No filters selected</value>
+    <comment>Help text used in filters selection.(rpc 151005)</comment>
+  </data>
+  <data name="FILTERS" xml:space="preserve">
+    <value>Filters</value>
+    <comment>(ext_rwe 150825)</comment>
+  </data>
+  <data name="FOLDER" xml:space="preserve">
+    <value>Folder</value>
+    <comment>(ext_rwe 150825)</comment>
+  </data>
+  <data name="FOLDER.CUSTOM.PATH" xml:space="preserve">
+    <value>Custom path</value>
+    <comment>Used in destinations folders form, in path creation select. (rpc 150903)</comment>
+  </data>
+  <data name="FOLDER.PREVIEW" xml:space="preserve">
+    <value>Preview</value>
+    <comment>(ext_rwe 150825)</comment>
+  </data>
+  <data name="FOLDER.QLIKVIEW.VARIABLE" xml:space="preserve">
+    <value>QlikView variable</value>
+    <comment>Used in destinations folders form, in path creation select. (rpc 150903)</comment>
+  </data>
+  <data name="FOLDER.SEPARATOR" xml:space="preserve">
+    <value>Separator</value>
+    <comment>Used in destinations folders form, in path creation select. (rpc 150903)</comment>
+  </data>
+  <data name="FOLDER.USER.FOLDER" xml:space="preserve">
+    <value>User folder</value>
+    <comment>Used in destinations folders form, in path creation select. (rpc 150903)</comment>
+  </data>
+  <data name="FOLDER.USER.NAME" xml:space="preserve">
+    <value>User name</value>
+    <comment>Used in destinations folders form, in path creation select. (rpc 150903)</comment>
+  </data>
+  <data name="FOLDER.USER.SUBFOLDER" xml:space="preserve">
+    <value>User subfolder</value>
+    <comment>Used in destinations folders form, in path creation select. (rpc 150903)</comment>
+  </data>
+  <data name="FOLDERS" xml:space="preserve">
+    <value>Folders</value>
+    <comment>(ext_rwe 150825)</comment>
+  </data>
+  <data name="GOOGLE" xml:space="preserve">
+    <value>Google</value>
+    <comment>(ext_rwe 150825)</comment>
+  </data>
+  <data name="GRIDACTIONS.GO" xml:space="preserve">
+    <value>Go</value>
+    <comment>(ext_rwe 150825)</comment>
+  </data>
+  <data name="GRIDACTIONS.SELECTED.ITEMS.COUNTER" xml:space="preserve">
+    <value>With {{items}} selected.</value>
+    <comment>(ext_rwe 150825)</comment>
+  </data>
+  <data name="GRIDFILTER.ALL" xml:space="preserve">
+    <value>All</value>
+    <comment>(ext_rwe 150825)</comment>
+  </data>
+  <data name="GRIDFILTER.ALL.SUBSCRIPTIONS" xml:space="preserve">
+    <value>All subscriptions</value>
+    <comment>(ext_rwe 150825)</comment>
+  </data>
+  <data name="GRIDFILTER.CORPORATE" xml:space="preserve">
+    <value>Corporate</value>
+    <comment>(ext_rwe 150825)</comment>
+  </data>
+  <data name="GRIDFILTER.DATE.RANGE" xml:space="preserve">
+    <value>Date range</value>
+    <comment>(ext_rwe 150825)</comment>
+  </data>
+  <data name="GRIDFILTER.DATERANGE.CUSTOM" xml:space="preserve">
+    <value>Custom</value>
+    <comment>(ext_rwe 150825)</comment>
+  </data>
+  <data name="GRIDFILTER.DATERANGE.LASTMONTH" xml:space="preserve">
+    <value>Last 30 days</value>
+    <comment>(ext_rwe 150825)</comment>
+  </data>
+  <data name="GRIDFILTER.DATERANGE.LASTWEEK" xml:space="preserve">
+    <value>Last 7 days</value>
+    <comment>(ext_rwe 150825)</comment>
+  </data>
+  <data name="GRIDFILTER.DATERANGE.THISMONTH" xml:space="preserve">
+    <value>This month</value>
+    <comment>(ext_rwe 150825)</comment>
+  </data>
+  <data name="GRIDFILTER.DATERANGE.THISWEEK" xml:space="preserve">
+    <value>This week</value>
+    <comment>(ext_rwe 150825)</comment>
+  </data>
+  <data name="GRIDFILTER.DATERANGE.TODAY" xml:space="preserve">
+    <value>Today</value>
+    <comment>(ext_rwe 150825)</comment>
+  </data>
+  <data name="GRIDFILTER.DATERANGE.YESTERDAY" xml:space="preserve">
+    <value>Yesterday</value>
+    <comment>(ext_rwe 150825)</comment>
+  </data>
+  <data name="GRIDFILTER.DISABLED" xml:space="preserve">
+    <value>Disabled</value>
+    <comment>(ext_rwe 150825)</comment>
+  </data>
+  <data name="GRIDFILTER.FILTER" xml:space="preserve">
+    <value>Filter</value>
+    <comment>(ext_rwe 150825)</comment>
+  </data>
+  <data name="GRIDFILTER.HELP.END.DATE" xml:space="preserve">
+    <value>End date</value>
+    <comment>(ext_rwe 150825)</comment>
+  </data>
+  <data name="GRIDFILTER.HELP.SEARCH" xml:space="preserve">
+    <value>Search</value>
+    <comment>(ext_rwe 150825)</comment>
+  </data>
+  <data name="GRIDFILTER.HELP.START.DATE" xml:space="preserve">
+    <value>Start date</value>
+    <comment>(ext_rwe 150825)</comment>
+  </data>
+  <data name="GRIDFILTER.MY.SUBSCRIPTIONS" xml:space="preserve">
+    <value>My subscriptions</value>
+    <comment>(ext_rwe 150825)</comment>
+  </data>
+  <data name="GRIDFILTER.RUNNING" xml:space="preserve">
+    <value>Running</value>
+    <comment>(ext_rwe 150825)</comment>
+  </data>
+  <data name="GRIDFILTER.TO" xml:space="preserve">
+    <value>To</value>
+    <comment>(ext_rwe 150825)</comment>
+  </data>
+  <data name="GRIDFILTER.VIEW" xml:space="preserve">
+    <value>View</value>
+    <comment>(ext_rwe 150825)</comment>
+  </data>
+  <data name="GROUP" xml:space="preserve">
+    <value>Group</value>
+    <comment>(ext_rwe 150825)</comment>
+  </data>
+  <data name="GROUP.ASSIGN.USERS" xml:space="preserve">
+    <value>Assign users</value>
+    <comment>(ext_rwe 150825)</comment>
+  </data>
+  <data name="GROUPS" xml:space="preserve">
+    <value>Groups</value>
+    <comment>(ext_rwe 150825)</comment>
+  </data>
+  <data name="HEADLINE.CONFIRMATION" xml:space="preserve">
+    <value>Confirmation</value>
+    <comment>(ext_rwe 150825)</comment>
+  </data>
+  <data name="HEADLINE.EMAIL.ATTACHMENTS" xml:space="preserve">
+    <value>E-mail attachments</value>
+    <comment>(ext_rwe 150825)</comment>
+  </data>
+  <data name="HEADLINE.FILTER.FIELDS" xml:space="preserve">
+    <value>Filter fields</value>
+    <comment>(ext_rwe 150825)</comment>
+  </data>
+  <data name="HEADLINE.NOTIFICATION" xml:space="preserve">
+    <value>Notification</value>
+    <comment>(ext_rwe 150825)</comment>
+  </data>
+  <data name="HEADLINE.PUBLISHED.REPORTS" xml:space="preserve">
+    <value>Published reports</value>
+    <comment>(ext_rwe 150825)</comment>
+  </data>
+  <data name="HEADLINE.TASK.PUBLISH.RECIPIENTS" xml:space="preserve">
+    <value>Users/groups</value>
+    <comment>(ext_rwe 150825)</comment>
+  </data>
+  <data name="TASKS.PUBLISH" xml:space="preserve">
+    <value>Publish tasks</value>
+    <comment>(ext_rwe 150825)</comment>
+  </data>
+  <data name="HELP.CONFIRM.PASSWORD.REQUIRED" xml:space="preserve">
+    <value>Please repeat your password.</value>
+    <comment>(ext_rwe 150825)</comment>
+  </data>
+  <data name="HELP.DOMAIN.ACCOUNT.REQUIRED" xml:space="preserve">
+    <value>Please enter a domain account.</value>
+    <comment>(ext_rwe 150825)</comment>
+  </data>
+  <data name="HELP.PASSWORD.REQUIRED" xml:space="preserve">
+    <value>Please enter your password.</value>
+    <comment>(ext_rwe 150825)</comment>
+  </data>
+  <data name="LOCAL" xml:space="preserve">
+    <value>Local</value>
+    <comment>(ext_rwe 150825)</comment>
+  </data>
+  <data name="LOCALE" xml:space="preserve">
+    <value>Locale</value>
+    <comment>(ext_rwe 150825)</comment>
+  </data>
+  <data name="LOGIN" xml:space="preserve">
+    <value>Login</value>
+    <comment>(ext_rwe 150825)</comment>
+  </data>
+  <data name="LOGIN.ERROR.INVALID.CREDENTIALS" xml:space="preserve">
+    <value>Login failed. Please check your credentials and try again.</value>
+    <comment>(ext_rwe 150825)</comment>
+  </data>
+  <data name="LOGIN.ERROR.SERVER.ERROR" xml:space="preserve">
+    <value>There was a problem with authenticating: {{exception}}.</value>
+    <comment>(ext_rwe 150825)</comment>
+  </data>
+  <data name="LOGIN.HELP" xml:space="preserve">
+    <value>Please sign in</value>
+    <comment>(ext_rwe 150825)</comment>
+  </data>
+  <data name="LOGIN.HELP.EMAIL" xml:space="preserve">
+    <value>E-mail address</value>
+    <comment>(ext_rwe 150825)</comment>
+  </data>
+  <data name="LOGIN.HELP.PASSWORD" xml:space="preserve">
+    <value>Password</value>
+    <comment>(ext_rwe 150825)</comment>
+  </data>
+  <data name="LOGIN.HELP.WITH.CREDENTIALS" xml:space="preserve">
+    <value>Or authenticate with {{productName}} credentials.</value>
+    <comment>(ext_rwe 150825)</comment>
+  </data>
+  <data name="LOGIN.NPRINTING.BUTTON" xml:space="preserve">
+    <value>{{productName}} login</value>
+    <comment>(ext_rwe 150825)</comment>
+  </data>
+  <data name="LOGIN.REASON.NOT.AUTHENTICATED" xml:space="preserve">
+    <value>You must be logged in to access this part of the application.</value>
+    <comment>(ext_rwe 150825)</comment>
+  </data>
+  <data name="LOGIN.REASON.NOT.AUTHORIZED" xml:space="preserve">
+    <value>You do not have the necessary access permissions. Do you want to login as someone else?</value>
+    <comment>(ext_rwe 150825)</comment>
+  </data>
+  <data name="MESSAGE" xml:space="preserve">
+    <value>{{message}}</value>
+    <comment>(ext_rwe 150825)</comment>
+  </data>
+  <data name="MESSAGES.APP.DUPLICATE.ERROR" xml:space="preserve">
+    <value>App name '{{name}}' is already used.</value>
+    <comment>(ext_rwe 150825)</comment>
+  </data>
+  <data name="MESSAGES.CONFIRMATION.REQUIRED" xml:space="preserve">
+    <value>Confirmation required.</value>
+    <comment>(ext_rwe 150825)</comment>
+  </data>
+  <data name="MESSAGES.CONNECTION.DUPLICATE.ERROR" xml:space="preserve">
+    <value>Connection '{{connectionName}}' is already used in app '{{appName}}'</value>
+    <comment>Used in connections creation/update pages (rpc 150903)</comment>
+  </data>
+  <data name="MESSAGES.CRUD.LEAVE.PAGE" xml:space="preserve">
+    <value>Do you want to leave the current page and lose the current changes?</value>
+    <comment>(ext_rwe 150825)</comment>
+  </data>
+  <data name="MESSAGES.CRUD.PLEASE.CONFIRM" xml:space="preserve">
+    <value>Please confirm</value>
+    <comment>(ext_rwe 150825)</comment>
+  </data>
+  <data name="MESSAGES.CRUD.REMOVE.ITEM" xml:space="preserve">
+    <value>Do you want to remove the item?</value>
+    <comment>(ext_rwe 150825)</comment>
+  </data>
+  <data name="MESSAGES.CRUD.REVERT.CHANGES" xml:space="preserve">
+    <value>Do you want to revert the current changes?</value>
+    <comment>(ext_rwe 150825)</comment>
+  </data>
+  <data name="MESSAGES.CRUD.SAVE.CHANGES" xml:space="preserve">
+    <value>Do you want to save the changes?</value>
+    <comment>(ext_rwe 150825)</comment>
+  </data>
+  <data name="MESSAGES.DOMAIN.ACCOUNT.ERROR" xml:space="preserve">
+    <value>The domain account '{{domainAccount}}' is not valid.</value>
+    <comment>(ext_rwe 150825)</comment>
+  </data>
+  <data name="MESSAGES.EMAIL.DUPLICATE.ERROR" xml:space="preserve">
+    <value>The email address '{{email}}' is already in use.</value>
+    <comment>(ext_rwe 150825)</comment>
+  </data>
+  <data name="MESSAGES.ERROR.OCCOURRED" xml:space="preserve">
+    <value>An unknown error has occurred.</value>
+    <comment>(ext_rwe 150825)</comment>
+  </data>
+  <data name="MESSAGES.FILTERFIELD.DUPLICATE.ERROR" xml:space="preserve">
+    <value>Field '{{field}}' is already used for this filter.</value>
+    <comment>(ext_rwe 150825)</comment>
+  </data>
+  <data name="MESSAGES.FILTERFIELD.NOVALUES.ERROR" xml:space="preserve">
+    <value>Field cannot be saved without values.</value>
+    <comment>(ext_rwe 150825)</comment>
+  </data>
+  <data name="MESSAGES.GENERIC.ERROR" xml:space="preserve">
+    <value>Something went wrong with the current operation.</value>
+    <comment>(ext_rwe 150825)</comment>
+  </data>
+  <data name="MESSAGES.PLEASE.WAIT" xml:space="preserve">
+    <value>Please wait.</value>
+    <comment>(ext_rwe 150825)</comment>
+  </data>
+  <data name="MESSAGES.PROGRESS.INFO" xml:space="preserve">
+    <value>{{progress}}% complete.</value>
+    <comment>(ext_rwe 150825)</comment>
+  </data>
+  <data name="MESSAGES.RESOURCE.NOTFOUND" xml:space="preserve">
+    <value>Resource not found</value>
+    <comment>Used in error messages. (rpc 150910)</comment>
+  </data>
+  <data name="MESSAGES.ROLE.DUPLICATE.ERROR" xml:space="preserve">
+    <value>Role name '{{name}}' is already used.</value>
+    <comment>Message shown in role creation/update pages, when role name is already used (ext_rwe 150825)</comment>
+  </data>
+  <data name="MESSAGES.TASKREPORT.DUPLICATE.ERROR" xml:space="preserve">
+    <value>Report '{{report}}' was already associated with this task with output '{{output}}'.</value>
+    <comment>(ext_rwe 150825)</comment>
+  </data>
+  <data name="MESSAGES.TRIGGER.NO.NEXT.EXECUTION" xml:space="preserve">
+    <value>No more events scheduled for this trigger.</value>
+    <comment>(ext_rwe 150825)</comment>
+  </data>
+  <data name="MESSAGES.UNAUTHORIZED.ACTION" xml:space="preserve">
+    <value>The user does not have the required rights to perform this action. Contact an administrator.</value>
+    <comment>(ext_rwe 150825)</comment>
+  </data>
+  <data name="MESSAGES.UNKNOWN.APPLICATION.NOTIFICATION" xml:space="preserve">
+    <value>Unknown application notification.</value>
+    <comment>(ext_rwe 150825)</comment>
+  </data>
+  <data name="MESSAGES.USER.GROUP.NAME.DUPLICATE.ERROR" xml:space="preserve">
+    <value>'{{name}}' is already a user or a group</value>
+    <comment>Message shown in user and group page, when name is already used (rpc 150903)</comment>
+  </data>
+  <data name="MESSAGES.WAITING.OPERATION" xml:space="preserve">
+    <value>Waiting for operation to complete.</value>
+    <comment>(ext_rwe 150825)</comment>
+  </data>
+  <data name="NEW" xml:space="preserve">
+    <value>New</value>
+    <comment>(ext_rwe 150825)</comment>
+  </data>
+  <data name="OVERVIEW" xml:space="preserve">
+    <value>Overview</value>
+    <comment>(ext_rwe 150825)</comment>
+  </data>
+  <data name="QV.DATA.CONNECTION" xml:space="preserve">
+    <value>QvDataConnection</value>
+    <comment>(ext_rwe 150825)</comment>
+  </data>
+  <data name="QV.OBJECT.ID" xml:space="preserve">
+    <value>QV object id</value>
+    <comment>(ext_rwe 150825)</comment>
+  </data>
+  <data name="RECIPIENT" xml:space="preserve">
+    <value>Recipient</value>
+    <comment>(ext_rwe 150825)</comment>
+  </data>
+  <data name="RECIPIENTS" xml:space="preserve">
+    <value>Recipients</value>
+    <comment>(ext_rwe 150825)</comment>
+  </data>
+  <data name="REPORT" xml:space="preserve">
+    <value>Report</value>
+    <comment>(ext_rwe 150825)</comment>
+  </data>
+  <data name="REPORT.ATTACH.TO.EMAIL" xml:space="preserve">
+    <value>Attach to e-mail</value>
+    <comment>(ext_rwe 150825)</comment>
+  </data>
+  <data name="REPORT.CACHE.NOT.AVAILABLE" xml:space="preserve">
+    <value>You must generate the cache for the app '{{name}}' before editing the report template.</value>
+    <comment>(ext_rwe 150825)</comment>
+  </data>
+  <data name="REPORT.DESCRIPTION" xml:space="preserve">
+    <value>Report description</value>
+    <comment>(ext_rwe 150825)</comment>
+  </data>
+  <data name="REPORT.FILTERS" xml:space="preserve">
+    <value>Report filters</value>
+    <comment>(ext_rwe 150825)</comment>
+  </data>
+  <data name="REPORT.FRIENDLY.NAME" xml:space="preserve">
+    <value>Friendly name</value>
+    <comment>(ext_rwe 150825)</comment>
+  </data>
+  <data name="REPORT.HELP.FRIENDLY.NAME" xml:space="preserve">
+    <value>This will be the name of your published report.</value>
+    <comment>(ext_rwe 150825)</comment>
+  </data>
+  <data name="REPORT.OUTPUT.FORMAT" xml:space="preserve">
+    <value>Output format</value>
+    <comment>(ext_rwe 150825)</comment>
+  </data>
+  <data name="REPORT.TYPE" xml:space="preserve">
+    <value>Report type</value>
+    <comment>(ext_rwe 150825)</comment>
+  </data>
+  <data name="REPORTS" xml:space="preserve">
+    <value>Reports</value>
+    <comment>(ext_rwe 150825)</comment>
+  </data>
+  <data name="ROLE" xml:space="preserve">
+    <value>Role</value>
+    <comment>(ext_rwe 150825)</comment>
+  </data>
+  <data name="ROLE.DESCRIPTION" xml:space="preserve">
+    <value>Role description</value>
+    <comment>(ext_rwe 150825)</comment>
+  </data>
+  <data name="ROLES" xml:space="preserve">
+    <value>Roles</value>
+    <comment>(ext_rwe 150825)</comment>
+  </data>
+  <data name="SECURITY" xml:space="preserve">
+    <value>Security</value>
+    <comment>(ext_rwe 150825)</comment>
+  </data>
+  <data name="SECURITY.ACTION.CREATE" xml:space="preserve">
+    <value>Create</value>
+    <comment>(ext_rwe 150825)</comment>
+  </data>
+  <data name="SECURITY.ACTION.DELETE" xml:space="preserve">
+    <value>Delete</value>
+    <comment>(ext_rwe 150825)</comment>
+  </data>
+  <data name="SECURITY.ACTION.DOWNLOAD" xml:space="preserve">
+    <value>Download</value>
+    <comment>(ext_rwe 150825)</comment>
+  </data>
+  <data name="SECURITY.ACTION.EDIT" xml:space="preserve">
+    <value>Edit</value>
+    <comment>(ext_rwe 150825)</comment>
+  </data>
+  <data name="SECURITY.ACTION.EDIT.TEMPLATE" xml:space="preserve">
+    <value>Edit template</value>
+    <comment>(ext_rwe 150825)</comment>
+  </data>
+  <data name="SECURITY.ACTION.PREVIEW" xml:space="preserve">
+    <value>Preview</value>
+    <comment>(ext_rwe 150825)</comment>
+  </data>
+  <data name="SECURITY.ACTION.RELOAD.METADATA" xml:space="preserve">
+    <value>Reload metadata</value>
+    <comment>(ext_rwe 150825)</comment>
+  </data>
+  <data name="SECURITY.ACTION.RUN.NOW" xml:space="preserve">
+    <value>Run now</value>
+    <comment>(ext_rwe 150825)</comment>
+  </data>
+  <data name="SECURITY.ACTION.SUBSCRIBE" xml:space="preserve">
+    <value>Subscribe</value>
+    <comment>(ext_rwe 150825)</comment>
+  </data>
+  <data name="SECURITY.ACTION.VIEW" xml:space="preserve">
+    <value>View</value>
+    <comment>(ext_rwe 150825)</comment>
+  </data>
+  <data name="SECURITY.ROLES" xml:space="preserve">
+    <value>Security roles</value>
+    <comment>(ext_rwe 150825)</comment>
+  </data>
+  <data name="SELECT.FOLDER" xml:space="preserve">
+    <value>Select folder</value>
+    <comment>(ext_rwe 150825)</comment>
+  </data>
+  <data name="SELECT.RECIPIENTS" xml:space="preserve">
+    <value>Select recipients</value>
+    <comment>(ext_rwe 150825)</comment>
+  </data>
+  <data name="SELECT.TYPE" xml:space="preserve">
+    <value>Select type</value>
+    <comment>(ext_rwe 150825)</comment>
+  </data>
+  <data name="SERVER" xml:space="preserve">
+    <value>Server</value>
+    <comment>(ext_rwe 150825)</comment>
+  </data>
+  <data name="SERVER.NAME" xml:space="preserve">
+    <value>Server name</value>
+    <comment>(ext_rwe 150825)</comment>
+  </data>
+  <data name="SETTINGS" xml:space="preserve">
+    <value>Settings</value>
+    <comment>(ext_rwe 150825)</comment>
+  </data>
+  <data name="SETTINGS.AUTHENTICATION" xml:space="preserve">
+    <value>Authentication settings</value>
+    <comment>(ext_rwe 150825)</comment>
+  </data>
+  <data name="SETTINGS.DEFAULT.EMAIL.SENDER" xml:space="preserve">
+    <value>Default sender e-mail</value>
+    <comment>(ext_rwe 150825)</comment>
+  </data>
+  <data name="SETTINGS.EMAIL" xml:space="preserve">
+    <value>E-mail settings</value>
+    <comment>(ext_rwe 150825)</comment>
+  </data>
+  <data name="SETTINGS.NEWSSTAND" xml:space="preserve">
+    <value>NewsStand settings</value>
+    <comment>(ext_rwe 150825)</comment>
+  </data>
+  <data name="SETTINGS.NEWSSTAND.CUSTOMIZATION" xml:space="preserve">
+    <value>NewsStand customization</value>
+    <comment>(ext_rwe 150825)</comment>
+  </data>
+  <data name="SETTINGS.PORT" xml:space="preserve">
+    <value>Port</value>
+    <comment>(ext_rwe 150825)</comment>
+  </data>
+  <data name="SETTINGS.USE.TLS" xml:space="preserve">
+    <value>Use TLS (transport layer security)</value>
+    <comment>(ext_rwe 150825)</comment>
+  </data>
+  <data name="SMTP" xml:space="preserve">
+    <value>SMTP server</value>
+    <comment>(ext_rwe 150825)</comment>
+  </data>
+  <data name="SUBFOLDER" xml:space="preserve">
+    <value>Subfolder</value>
+    <comment>(ext_rwe 150825)</comment>
+  </data>
+  <data name="TAGS.EMBED.REPORT" xml:space="preserve">
+    <value>Embed {{title}} in {{outputFormat}} format</value>
+    <comment>Tag label for email message editor in tasks/publish/GUID/email-message (rpc 150910)</comment>
+  </data>
+  <data name="TAGS.TASK.EXECUTION.DATE" xml:space="preserve">
+    <value>Task execution date</value>
+    <comment>Tag label for email message editor in tasks/publish/GUID/email-message (rpc 150910)</comment>
+  </data>
+  <data name="TAGS.TASK.EXECUTION.TIME" xml:space="preserve">
+    <value>Task execution time</value>
+    <comment>Tag label for email message editor in tasks/publish/GUID/email-message (rpc 150910)</comment>
+  </data>
+  <data name="TAGS.USER.COMPANY" xml:space="preserve">
+    <value>User company</value>
+    <comment>Tag label for email message editor in tasks/publish/GUID/email-message (rpc 150910)</comment>
+  </data>
+  <data name="TAGS.USER.CURRENT.SELECTIONS" xml:space="preserve">
+    <value>User current selections</value>
+    <comment>Tag label for email message editor in tasks/publish/GUID/email-message (rpc 150910)</comment>
+  </data>
+  <data name="TAGS.USER.DEPARTMENT" xml:space="preserve">
+    <value>User department</value>
+    <comment>Tag label for email message editor in tasks/publish/GUID/email-message (rpc 150910)</comment>
+  </data>
+  <data name="TAGS.USER.EMAIL" xml:space="preserve">
+    <value>User e-mail</value>
+    <comment>Tag label for email message editor in tasks/publish/GUID/email-message (rpc 150910)</comment>
+  </data>
+  <data name="TAGS.USER.JOB.TITLE" xml:space="preserve">
+    <value>User job title</value>
+    <comment>Tag label for email message editor in tasks/publish/GUID/email-message (rpc 150910)</comment>
+  </data>
+  <data name="TAGS.USER.NAME" xml:space="preserve">
+    <value>User name</value>
+    <comment>Tag label for email message editor in tasks/publish/GUID/email-message (rpc 150910)</comment>
+  </data>
+  <data name="TAGS.USER.NICKNAME" xml:space="preserve">
+    <value>User nickname</value>
+    <comment>Tag label for email message editor in tasks/publish/GUID/email-message (rpc 150910)</comment>
+  </data>
+  <data name="TAGS.USER.OFFICE" xml:space="preserve">
+    <value>User office</value>
+    <comment>Tag label for email message editor in tasks/publish/GUID/email-message (rpc 150910)</comment>
+  </data>
+  <data name="TAGS.USER.TITLE" xml:space="preserve">
+    <value>User title</value>
+    <comment>Tag label for email message editor in tasks/publish/GUID/email-message (rpc 150910)</comment>
+  </data>
+  <data name="TASK" xml:space="preserve">
+    <value>Task</value>
+    <comment>(ext_rwe 150825)</comment>
+  </data>
+  <data name="TASK.DESTINATIONS" xml:space="preserve">
+    <value>Destinations</value>
+    <comment>(ext_rwe 150825)</comment>
+  </data>
+  <data name="TASK.KILL.ERROR" xml:space="preserve">
+    <value>The task execution with id '{{id}}' could not be  killed.</value>
+    <comment>(ext_rwe 150825)</comment>
+  </data>
+  <data name="TASK.KILL.SUCCESS" xml:space="preserve">
+    <value>The task execution with id '{{id}}' was successfully killed.</value>
+    <comment>(ext_rwe 150825)</comment>
+  </data>
+  <data name="TASK.LAST.RUN" xml:space="preserve">
+    <value>Last run</value>
+    <comment>(ext_rwe 150825)</comment>
+  </data>
+  <data name="TASK.PUBLISH" xml:space="preserve">
+    <value>Publish task</value>
+    <comment>(ext_rwe 150825)</comment>
+  </data>
+  <data name="TASK.PUBLISH.ADD.USER.OR.GROUP" xml:space="preserve">
+    <value>Add user or group</value>
+    <comment>(ext_rwe 150825)</comment>
+  </data>
+  <data name="TASK.PUBLISH.DAYS.TO.KEEP" xml:space="preserve">
+    <value>Days to keep</value>
+    <comment>(ext_rwe 150825)</comment>
+  </data>
+  <data name="TASK.PUBLISH.DESTINATION.EMAIL" xml:space="preserve">
+    <value>E-mail destination</value>
+    <comment>(ext_rwe 150825)</comment>
+  </data>
+  <data name="TASK.PUBLISH.DESTINATION.NEWSSTAND" xml:space="preserve">
+    <value>NewsStand destination</value>
+    <comment>Publish on NewsStand checkbox in publish tasks/users tab (ext_rwe 150825)</comment>
+  </data>
+  <data name="TASK.PUBLISH.EMAIL.FOR.ALL" xml:space="preserve">
+    <value>E-mail for all</value>
+    <comment>(ext_rwe 150825)</comment>
+  </data>
+  <data name="TASK.PUBLISH.FILTERS" xml:space="preserve">
+    <value>Publish task filters</value>
+    <comment>(ext_rwe 150825)</comment>
+  </data>
+  <data name="TASK.PUBLISH.FOR.ALL" xml:space="preserve">
+    <value>Publish for all</value>
+    <comment>(ext_rwe 150825)</comment>
+  </data>
+  <data name="TASK.PUBLISH.REPORTS.TO.KEEP" xml:space="preserve">
+    <value>Reports to keep</value>
+    <comment>(ext_rwe 150825)</comment>
+  </data>
+  <data name="TASK.PUBLISH.RUN.NOW" xml:space="preserve">
+    <value>Run now</value>
+    <comment>(ext_rwe 150825)</comment>
+  </data>
+  <data name="TASK.SCHEDULE.ERROR" xml:space="preserve">
+    <value>The task with id '{{id}}' could not be scheduled for execution.</value>
+    <comment>(ext_rwe 150825)</comment>
+  </data>
+  <data name="TASK.SCHEDULE.SUCCESS" xml:space="preserve">
+    <value>The task with id '{{id}}' was successfully scheduled for execution.</value>
+    <comment>(ext_rwe 150825)</comment>
+  </data>
+  <data name="TASKS" xml:space="preserve">
+    <value>Tasks</value>
+    <comment>(ext_rwe 150825)</comment>
+  </data>
+  <data name="TEXTANGULAR.TAGS" xml:space="preserve">
+    <value>Tags</value>
+    <comment>Used ab button title in HTML text editor in publish task email message page. (RPC150923)</comment>
+  </data>
+  <data name="TEXTANGULAR.TAGS.HELP" xml:space="preserve">
+    <value>Insert custom tag</value>
+    <comment>Used ab button title in HTML text editor in publish task email message page. (RPC150923)</comment>
+  </data>
+  <data name="TEXTANGULAR.HTML" xml:space="preserve">
+    <value>Toggle HTML/Rich Text</value>
+    <comment>Used ab button title in HTML text editor in publish task email message page. (RPC150923)</comment>
+  </data>
+  <data name="TEXTANGULAR.HEADING" xml:space="preserve">
+    <value>Heading {{value}}</value>
+    <comment>Used ab button title in HTML text editor in publish task email message page. (RPC150923)</comment>
+  </data>
+  <data name="TEXTANGULAR.PARAGRAPH" xml:space="preserve">
+    <value>Paragraph</value>
+    <comment>Used ab button title in HTML text editor in publish task email message page. (RPC150923)</comment>
+  </data>
+  <data name="TEXTANGULAR.PREFORMATTED" xml:space="preserve">
+    <value>Preformatted text</value>
+    <comment>Used ab button title in HTML text editor in publish task email message page. (RPC150923)</comment>
+  </data>
+  <data name="TEXTANGULAR.UNORDERED.LIST" xml:space="preserve">
+    <value>Unordered list</value>
+    <comment>Used ab button title in HTML text editor in publish task email message page.  (RPC150923)</comment>
+  </data>
+  <data name="TEXTANGULAR.ORDERED.LIST" xml:space="preserve">
+    <value>Ordered list</value>
+    <comment>Used ab button title in HTML text editor in publish task email message page. (RPC150923)</comment>
+  </data>
+  <data name="TEXTANGULAR.QUOTE" xml:space="preserve">
+    <value>Quote/unquote selection or paragraph</value>
+    <comment>Used ab button title in HTML text editor in publish task email message page. (RPC150923)</comment>
+  </data>
+  <data name="TEXTANGULAR.UNDO" xml:space="preserve">
+    <value>Undo</value>
+    <comment>Used ab button title in HTML text editor in publish task email message page.  (RPC150923)</comment>
+  </data>
+  <data name="TEXTANGULAR.REDO" xml:space="preserve">
+    <value>Redo</value>
+    <comment>Used ab button title in HTML text editor in publish task email message page. (RPC150923)</comment>
+  </data>
+  <data name="TEXTANGULAR.BOLD" xml:space="preserve">
+    <value>Bold</value>
+    <comment>Used ab button title in HTML text editor in publish task email message page. (RPC 150923)</comment>
+  </data>
+  <data name="TEXTANGULAR.JUSTIFY.LEFT" xml:space="preserve">
+    <value>Align text left</value>
+    <comment>Used ab button title in HTML text editor in publish task email message page. (RPC150923)</comment>
+  </data>
+  <data name="TEXTANGULAR.JUSTIFY.RIGHT" xml:space="preserve">
+    <value>Align text right</value>
+    <comment>Used ab button title in HTML text editor in publish task email message page. (RPC150923)</comment>
+  </data>
+  <data name="TEXTANGULAR.JUSTIFY.CENTER" xml:space="preserve">
+    <value>Center</value>
+    <comment>Used ab button title in HTML text editor in publish task email message page. (RPC150923)</comment>
+  </data>
+  <data name="TEXTANGULAR.INDENT" xml:space="preserve">
+    <value>Increase indent</value>
+    <comment>Used ab button title in HTML text editor in publish task email message page. (RPC150923)</comment>
+  </data>
+  <data name="TEXTANGULAR.OUTDENT" xml:space="preserve">
+    <value>Decrease indent</value>
+    <comment>Used ab button title in HTML text editor in publish task email message page. (RPC150923)</comment>
+  </data>
+  <data name="TEXTANGULAR.ITALICS" xml:space="preserve">
+    <value>Italic</value>
+    <comment>Used ab button title in HTML text editor in publish task email message page. (RPC150923)</comment>
+  </data>
+  <data name="TEXTANGULAR.UNDERLINE" xml:space="preserve">
+    <value>Underline</value>
+    <comment>Used ab button title in HTML text editor in publish task email message page. (RPC150923)</comment>
+  </data>
+  <data name="TEXTANGULAR.STRIKETHROUGH" xml:space="preserve">
+    <value>Strikethrough</value>
+    <comment>Used ab button title in HTML text editor in publish task email message page. (RPC150923)</comment>
+  </data>
+  <data name="TEXTANGULAR.CLEAR" xml:space="preserve">
+    <value>Clear formatting</value>
+    <comment>Used ab button title in HTML text editor in publish task email message page. (RPC150923)</comment>
+  </data>
+  <data name="TEXTANGULAR.INSERT.IMAGE" xml:space="preserve">
+    <value>Insert image</value>
+    <comment>Used ab button title in HTML text editor in publish task email message page. (RPC150923)</comment>
+  </data>
+  <data name="TEXTANGULAR.INSERT.VIDEO" xml:space="preserve">
+    <value>Insert video</value>
+    <comment>Used ab button title in HTML text editor in publish task email message page. (RPC150923)</comment>
+  </data>
+  <data name="TEXTANGULAR.INSERT.LINK" xml:space="preserve">
+    <value>Insert/edit link</value>
+    <comment>Used ab button title in HTML text editor in publish task email message page. (RPC150923)</comment>
+  </data>
+  <data name="TEXTANGULAR.CHAR.COUNT" xml:space="preserve">
+    <value>Characters</value>
+    <comment>Used ab button title in HTML text editor in publish task email message page. (RPC150923)</comment>
+  </data>
+  <data name="TEXTANGULAR.WORD.COUNT" xml:space="preserve">
+    <value>Words</value>
+    <comment>Used ab button title in HTML text editor in publish task email message page.  (RPC150923)</comment>
+  </data>
+  <data name="THIRD.PARTY.SOFTWARE" xml:space="preserve">
+    <value>Third-party software</value>
+    <comment>Used in about modal. (rpc 151105)</comment>
+  </data>
+  <data name="THIRD.PARTY.SOFTWARE.INTRO" xml:space="preserve">
+    <value>The following list shows all third-party software and licenses used in {{productName}}. All are necessary parts of {{productName}}.</value>
+    <comment>Used in about modal. (rpc 151105)</comment>
+  </data>
+  <data name="TIME.DAY.FRIDAY" xml:space="preserve">
+    <value>Friday</value>
+    <comment>(ext_rwe 150825)</comment>
+  </data>
+  <data name="TIME.DAY.MONDAY" xml:space="preserve">
+    <value>Monday</value>
+    <comment>(ext_rwe 150825)</comment>
+  </data>
+  <data name="TIME.DAY.SATURDAY" xml:space="preserve">
+    <value>Saturday</value>
+    <comment>(ext_rwe 150825)</comment>
+  </data>
+  <data name="TIME.DAY.SUNDAY" xml:space="preserve">
+    <value>Sunday</value>
+    <comment>(ext_rwe 150825)</comment>
+  </data>
+  <data name="TIME.DAY.THURSDAY" xml:space="preserve">
+    <value>Thursday</value>
+    <comment>(ext_rwe 150825)</comment>
+  </data>
+  <data name="TIME.DAY.TUESDAY" xml:space="preserve">
+    <value>Tuesday</value>
+    <comment>(ext_rwe 150825)</comment>
+  </data>
+  <data name="TIME.DAY.WEDNESDAY" xml:space="preserve">
+    <value>Wednesday</value>
+    <comment>(ext_rwe 150825)</comment>
+  </data>
+  <data name="TIME.UNIT.HOURS" xml:space="preserve">
+    <value>Hours</value>
+    <comment>(ext_rwe 150825)</comment>
+  </data>
+  <data name="TIME.UNIT.MILLISECONDS" xml:space="preserve">
+    <value>Milliseconds</value>
+    <comment>(ext_rwe 150825)</comment>
+  </data>
+  <data name="TIME.UNIT.MINUTES" xml:space="preserve">
+    <value>Minutes</value>
+    <comment>(ext_rwe 150825)</comment>
+  </data>
+  <data name="TIME.UNIT.SECONDS" xml:space="preserve">
+    <value>Seconds</value>
+    <comment>(ext_rwe 150825)</comment>
+  </data>
+  <data name="TIME.ZONE" xml:space="preserve">
+    <value>Time zone</value>
+    <comment>(ext_rwe 150825)</comment>
+  </data>
+  <data name="TOGGLE.NAVIGATION" xml:space="preserve">
+    <value>Toggle navigation</value>
+    <comment>(ext_rwe 150825)</comment>
+  </data>
+  <data name="TRIGGER" xml:space="preserve">
+    <value>Trigger</value>
+    <comment>(ext_rwe 150825)</comment>
+  </data>
+  <data name="TRIGGER.DAILY.EVERY.N.DAYS" xml:space="preserve">
+    <value>Daily: every (n) days</value>
+    <comment>(ext_rwe 150825)</comment>
+  </data>
+  <data name="TRIGGER.DAILY.EVERY.WEEKDAY" xml:space="preserve">
+    <value>Daily: every weekday</value>
+    <comment>(ext_rwe 150825)</comment>
+  </data>
+  <data name="TRIGGER.DAILY.FREQUENCY" xml:space="preserve">
+    <value>Daily frequency</value>
+    <comment>(ext_rwe 150825)</comment>
+  </data>
+  <data name="TRIGGER.DAY.COUNT" xml:space="preserve">
+    <value>Day count</value>
+    <comment>(ext_rwe 150825)</comment>
+  </data>
+  <data name="TRIGGER.DESCRIPTION.DAILY.EVERY" xml:space="preserve">
+    <value>Every {{days}} day(s)</value>
+    <comment>(ext_rwe 150825)</comment>
+  </data>
+  <data name="TRIGGER.DESCRIPTION.DAILY.ONCE" xml:space="preserve">
+    <value>Once</value>
+    <comment>(ext_rwe 150825)</comment>
+  </data>
+  <data name="TRIGGER.DESCRIPTION.DAILY.PERIODIC" xml:space="preserve">
+    <value>Periodic</value>
+    <comment>(ext_rwe 150825)</comment>
+  </data>
+  <data name="TRIGGER.DESCRIPTION.DAILY.PERIODIC.EXPLAIN" xml:space="preserve">
+    <value>Every {{unitValue}} {{unitName}} between {{startTime}} and {{endTime}}</value>
+    <comment>(ext_rwe 150825)</comment>
+  </data>
+  <data name="TRIGGER.DESCRIPTION.DAILY.WEEKDAY" xml:space="preserve">
+    <value>Every weekday</value>
+    <comment>(ext_rwe 150825)</comment>
+  </data>
+  <data name="TRIGGER.DESCRIPTION.DAY" xml:space="preserve">
+    <value>On {{day}}</value>
+    <comment>(ext_rwe 150825)</comment>
+  </data>
+  <data name="TRIGGER.DESCRIPTION.END.DAYCOUNT" xml:space="preserve">
+    <value>After {{count}} day(s)</value>
+    <comment>(ext_rwe 150825)</comment>
+  </data>
+  <data name="TRIGGER.DESCRIPTION.END.EVENTCOUNT" xml:space="preserve">
+    <value>After {{count}} event(s)</value>
+    <comment>(ext_rwe 150825)</comment>
+  </data>
+  <data name="TRIGGER.DESCRIPTION.END.EXPLAIN" xml:space="preserve">
+    <value>Ends {{explain}}</value>
+    <comment>(ext_rwe 150825)</comment>
+  </data>
+  <data name="TRIGGER.DESCRIPTION.END.NEVER" xml:space="preserve">
+    <value>Never ends</value>
+    <comment>(ext_rwe 150825)</comment>
+  </data>
+  <data name="TRIGGER.DESCRIPTION.START" xml:space="preserve">
+    <value>Starts on {{date}}</value>
+    <comment>(ext_rwe 150825)</comment>
+  </data>
+  <data name="TRIGGER.DESCRIPTION.TIME" xml:space="preserve">
+    <value>At {{time}}</value>
+    <comment>(ext_rwe 150825)</comment>
+  </data>
+  <data name="TRIGGER.DESCRIPTION.WEEKLY.EVERY" xml:space="preserve">
+    <value>Every {{weeks}} week(s) on</value>
+    <comment>(ext_rwe 150825)</comment>
+  </data>
+  <data name="TRIGGER.END" xml:space="preserve">
+    <value>End</value>
+    <comment>(ext_rwe 150825)</comment>
+  </data>
+  <data name="TRIGGER.EVENT.COUNT" xml:space="preserve">
+    <value>Event count</value>
+    <comment>(ext_rwe 150825)</comment>
+  </data>
+  <data name="TRIGGER.FOR.TASK" xml:space="preserve">
+    <value>Trigger for task {{name}}</value>
+    <comment>(ext_rwe 150825)</comment>
+  </data>
+  <data name="TRIGGER.FREQUENCY.TYPE.EVERY" xml:space="preserve">
+    <value>Every</value>
+    <comment>(ext_rwe 150825)</comment>
+  </data>
+  <data name="TRIGGER.FREQUENCY.TYPE.ONCE" xml:space="preserve">
+    <value>Once</value>
+    <comment>(ext_rwe 150825)</comment>
+  </data>
+  <data name="TRIGGER.HELP.WEEKDAY.REQUIRED" xml:space="preserve">
+    <value>Please select at least one weekday.</value>
+    <comment>(ext_rwe 150825)</comment>
+  </data>
+  <data name="TRIGGER.NEXT.EXECUTION" xml:space="preserve">
+    <value>Next execution</value>
+    <comment>(ext_rwe 150825)</comment>
+  </data>
+  <data name="TRIGGER.OCCURS" xml:space="preserve">
+    <value>Occurs</value>
+    <comment>(ext_rwe 150825)</comment>
+  </data>
+  <data name="TRIGGER.OCCURS.EVERY" xml:space="preserve">
+    <value>Occurs every</value>
+    <comment>(ext_rwe 150825)</comment>
+  </data>
+  <data name="TRIGGER.ONCE" xml:space="preserve">
+    <value>Once</value>
+    <comment>(ext_rwe 150825)</comment>
+  </data>
+  <data name="TRIGGER.SCHEDULE" xml:space="preserve">
+    <value>Schedule</value>
+    <comment>(ext_rwe 150825)</comment>
+  </data>
+  <data name="TRIGGER.SCHEDULE.TYPE" xml:space="preserve">
+    <value>Schedule type</value>
+    <comment>(ext_rwe 150825)</comment>
+  </data>
+  <data name="TRIGGER.SCHEDULE.TYPE.DAILY" xml:space="preserve">
+    <value>Daily</value>
+    <comment>(ext_rwe 150825)</comment>
+  </data>
+  <data name="TRIGGER.SCHEDULE.TYPE.ONE.SHOT" xml:space="preserve">
+    <value>One-shot</value>
+    <comment>(ext_rwe 150825)</comment>
+  </data>
+  <data name="TRIGGER.SCHEDULE.TYPE.WEEKLY" xml:space="preserve">
+    <value>Weekly</value>
+    <comment>(ext_rwe 150825)</comment>
+  </data>
+  <data name="TRIGGER.START" xml:space="preserve">
+    <value>Start</value>
+    <comment>(ext_rwe 150825)</comment>
+  </data>
+  <data name="TRIGGER.START.DATE" xml:space="preserve">
+    <value>Start date</value>
+    <comment>(ext_rwe 150825)</comment>
+  </data>
+  <data name="TRIGGER.WEEKLY.EVERY.N.WEEKS" xml:space="preserve">
+    <value>Weekly: every (n) weeks</value>
+    <comment>(ext_rwe 150825)</comment>
+  </data>
+  <data name="TRIGGERS" xml:space="preserve">
+    <value>Triggers</value>
+    <comment>(ext_rwe 150825)</comment>
+  </data>
+  <data name="TYPE" xml:space="preserve">
+    <value>Type</value>
+    <comment>(ext_rwe 150825)</comment>
+  </data>
+  <data name="USER" xml:space="preserve">
+    <value>User</value>
+    <comment>(ext_rwe 150825)</comment>
+  </data>
+  <data name="USER.CHANGE.PASSWORD" xml:space="preserve">
+    <value>Change password</value>
+    <comment>(ext_rwe 150825)</comment>
+  </data>
+  <data name="USER.COMPANY" xml:space="preserve">
+    <value>Company</value>
+    <comment>(ext_rwe 150825)</comment>
+  </data>
+  <data name="USER.CONFIRM.PASSWORD" xml:space="preserve">
+    <value>Confirm password</value>
+    <comment>(ext_rwe 150825)</comment>
+  </data>
+  <data name="USER.DEPARTMENT" xml:space="preserve">
+    <value>Department</value>
+    <comment>(ext_rwe 150825)</comment>
+  </data>
+  <data name="USER.DESCRIPTION" xml:space="preserve">
+    <value>User description</value>
+    <comment>(ext_rwe 150825)</comment>
+  </data>
+  <data name="USER.DETAILS" xml:space="preserve">
+    <value>User details</value>
+    <comment>(ext_rwe 150825)</comment>
+  </data>
+  <data name="USER.FILTERS" xml:space="preserve">
+    <value>User filters</value>
+    <comment>(ext_rwe 150825)</comment>
+  </data>
+  <data name="USER.GROUPS" xml:space="preserve">
+    <value>User groups</value>
+    <comment>(ext_rwe 150825)</comment>
+  </data>
+  <data name="USER.JOB.TITLE" xml:space="preserve">
+    <value>Job title</value>
+    <comment>(ext_rwe 150825)</comment>
+  </data>
+  <data name="USER.NICKNAME" xml:space="preserve">
+    <value>Nickname</value>
+    <comment>(ext_rwe 150825)</comment>
+  </data>
+  <data name="USER.OFFICE" xml:space="preserve">
+    <value>Office</value>
+    <comment>(ext_rwe 150825)</comment>
+  </data>
+  <data name="USER.PASSWORD" xml:space="preserve">
+    <value>Password</value>
+    <comment>(ext_rwe 150825)</comment>
+  </data>
+  <data name="USER.ROLES" xml:space="preserve">
+    <value>User roles</value>
+    <comment>(ext_rwe 150825)</comment>
+  </data>
+  <data name="USER.TITLE" xml:space="preserve">
+    <value>Title</value>
+    <comment>(ext_rwe 150825)</comment>
+  </data>
+  <data name="USER.USERNAME" xml:space="preserve">
+    <value>Username</value>
+    <comment>(ext_rwe 150825)</comment>
+  </data>
+  <data name="USERS" xml:space="preserve">
+    <value>Users</value>
+    <comment>(ext_rwe 150825)</comment>
+  </data>
+  <data name="WIDGET.APP.MORE" xml:space="preserve">
+    <value>More apps...</value>
+    <comment>(ext_rwe 150825)</comment>
+  </data>
+  <data name="WIDGET.APP.NONE" xml:space="preserve">
+    <value>No apps for you!</value>
+    <comment>(ext_rwe 150825)</comment>
+  </data>
+  <data name="WIDGET.APP.TITLE" xml:space="preserve">
+    <value>Recent apps</value>
+    <comment>(ext_rwe 150825)</comment>
+  </data>
+  <data name="WIDGET.REPORT.MORE" xml:space="preserve">
+    <value>More reports...</value>
+    <comment>(ext_rwe 150825)</comment>
+  </data>
+  <data name="WIDGET.REPORT.NONE" xml:space="preserve">
+    <value>No reports for you!</value>
+    <comment>(ext_rwe 150825)</comment>
+  </data>
+  <data name="WIDGET.REPORT.TITLE" xml:space="preserve">
+    <value>Recent reports</value>
+    <comment>(ext_rwe 150825)</comment>
+  </data>
+  <data name="WIDGET.TASK.MORE" xml:space="preserve">
+    <value>More tasks...</value>
+    <comment>(ext_rwe 150825)</comment>
+  </data>
+  <data name="WIDGET.TASK.NONE" xml:space="preserve">
+    <value>No tasks for you!</value>
+    <comment>(ext_rwe 150825)</comment>
+  </data>
+  <data name="WIDGET.TASK.TITLE" xml:space="preserve">
+    <value>Recent tasks</value>
+    <comment>(ext_rwe 150825)</comment>
+  </data>
+  <data name="WINDOWS" xml:space="preserve">
+    <value>Windows</value>
+    <comment>(ext_rwe 150825)</comment>
+  </data>
+  <data name="ACTION.UPDATE.USER.FILTERS" xml:space="preserve">
+    <value>Update user filters</value>
+    <comment>Add or remove button in users/filters (rpc 150903)</comment>
+  </data>
+  <data name="LICENSE" xml:space="preserve">
+    <value>License</value>
+    <comment>License common string (rpc 151001)</comment>
+  </data>
+  <data name="LICENSE.ACTIVATION" xml:space="preserve">
+    <value>License activation</value>
+    <comment>License activation label for menu and tab title (rpc 151001)</comment>
+  </data>
+  <data name="LICENSE.ACTIVATION.SUCCESS" xml:space="preserve">
+    <value>Activation successful</value>
+    <comment>Success message for online license activation (rpc 151001)</comment>
+  </data>
+  <data name="LICENSE.ACTIVATION.ERROR" xml:space="preserve">
+    <value>Activation failed</value>
+    <comment>Error for failed online activation (rpc 151001)</comment>
+  </data>
+  <data name="LICENSE.KEY" xml:space="preserve">
+    <value>License key</value>
+    <comment>License key (rpc 151001)</comment>
+  </data>
+  <data name="LICENSE.CONTROL.NUMBER" xml:space="preserve">
+    <value>Control number</value>
+    <comment>Control number used for license activation (rpc 151001)</comment>
+  </data>
+  <data name="LICENSE.USERNAME" xml:space="preserve">
+    <value>User name</value>
+    <comment>User name for license system (rpc 151001)</comment>
+  </data>
+  <data name="LICENSE.ORGANIZATION" xml:space="preserve">
+    <value>Organization</value>
+    <comment>Organization name for license system (rpc 151001)</comment>
+  </data>
+  <data name="BUTTON.LICENSE.ACTIVATE" xml:space="preserve">
+    <value>Activate</value>
+    <comment>Label for online activation button in license activation tab (rpc 151001)</comment>
+  </data>
+  <data name="BUTTON.LICENSE.DEACTIVATE" xml:space="preserve">
+    <value>Deactivate</value>
+    <comment>Label for online deactivation button in license activation tab (rpc 151001)</comment>
+  </data>
+  <data name="LICENCE.OFFLINE.ACTIVATION" xml:space="preserve">
+    <value>Unable to contact the {{productName}} enabling server.</value>
+    <comment>License activation label for offline license page title (rpc 151001)</comment>
+  </data>
+  <data name="LICENSE.OFFLINE.ACTIVATION.ERROR" xml:space="preserve">
+    <value>Activation failed</value>
+    <comment>Error for failed offline activation (rpc 151001)</comment>
+  </data>
+  <data name="LICENSE.OFFLINE.ACTIVATION.SUCCESS" xml:space="preserve">
+    <value>Activation successful</value>
+    <comment>Success message for offline license activation (rpc 151001)</comment>
+  </data>
+  <data name="LICENSE.OFFLINE.HELP" xml:space="preserve">
+    <value>Contact your {{productName}} administrator if you do not have this information.</value>
+    <comment>Help information in offline licence page (rpc 151001)</comment>
+  </data>
+  <data name="LICENSE.OFFLINE.INFORMATION" xml:space="preserve">
+    <value>Copy and paste the content of your LEF file here.</value>
+    <comment>Used in offline licence input label (rpc 151001)</comment>
+  </data>
+  <data name="OFFLINE" xml:space="preserve">
+    <value>Offline</value>
+    <comment>Used in offline licence page breadcrumbs (rpc 151001)</comment>
+  </data>
+  <data name="BUTTON.LICENSE.UPDATE.ONLINE" xml:space="preserve">
+    <value>Update</value>
+    <comment>Button to update license LEF file online (rpc 151001)</comment>
+  </data>
+  <data name="BUTTON.LICENSE.EDIT" xml:space="preserve">
+    <value>Change</value>
+    <comment>Button to change license information (rpc 151001)</comment>
+  </data>
+  <data name="BUTTON.LICENSE.ACTIVATE.OFFLINE" xml:space="preserve">
+    <value>Activate offline</value>
+    <comment>Button to activate the licence offline using LEF string (rpc 151001)</comment>
+  </data>
+  <data name="LICENSE.DEACTIVATE.CONFIRM" xml:space="preserve">
+    <value>Do you want to deactivate the license?</value>
+    <comment>Message for deactivate license confirmation popup (rpc 151001)</comment>
+  </data>
+  <data name="LICENSE.DEACTIVATION.SUCCESS" xml:space="preserve">
+    <value>License has been deactivated.</value>
+    <comment>Success message for license deactivation (rpc 151001)</comment>
+  </data>
+  <data name="EMAIL.NO.REPORTS.ATTACHED" xml:space="preserve">
+    <value>No reports attached</value>
+    <comment>(rpc 150910)</comment>
+  </data>
+  <data name="LICENSE.LEF" xml:space="preserve">
+    <value>LEF</value>
+    <comment>(rpc 151001)</comment>
+  </data>
+  <data name="LICENSE.MISSING.MESSAGE" xml:space="preserve">
+    <value>License missing</value>
+    <comment>Message displayed in license activation page (rpc 151001)</comment>
+  </data>
+  <data name="LICENSE.ERROR.INCOMPATIBLE.KEY.AND.CONTROL.NUMBER" xml:space="preserve">
+    <value>Invalid license key or control number.</value>
+    <comment>(rpc 151001)</comment>
+  </data>
+  <data name="LICENSE.ERROR.INVALID.LICENSE.KEY" xml:space="preserve">
+    <value>Invalid license key.</value>
+    <comment>(rpc 151001)</comment>
+  </data>
+  <data name="LICENSE.ERROR.WRONG.LEF" xml:space="preserve">
+    <value>Wrong LEF</value>
+    <comment>(rpc 151001)</comment>
+  </data>
+  <data name="LICENSE.ERROR.MAX.USERS.EXCEEDED" xml:space="preserve">
+    <value>Users limit exceeded. Your license is limited to {{maxUsers}} users.</value>
+    <comment>Please improve this message (rpc 151001)</comment>
+  </data>
+  <data name="LICENSE.ERROR.MAX.DEVELOPERS.EXCEEDED" xml:space="preserve">
+    <value>Developers limit exceeded. Your license is limited to {{maxDevelopers}} developers. </value>
+    <comment>Please improve this message (rpc 151001)</comment>
+  </data>
+  <data name="LICENSE.ERROR.MAX.ENGINES.EXCEEDED" xml:space="preserve">
+    <value>Engines limit exceeded. Your license is limited to {{maxEngines}} engines. </value>
+    <comment>Please improve this message (rpc 151001)</comment>
+  </data>
+  <data name="LICENSE.ERROR.CHECK.PRODUCT.EXPIRED" xml:space="preserve">
+    <value>Product expired</value>
+    <comment>Please improve this message (rpc 151001)</comment>
+  </data>
+  <data name="LICENSE.ONLINE.UPDATE.ERROR" xml:space="preserve">
+    <value>Unable to update license information.</value>
+    <comment>Error shown when license can not be updated online (rpc 151001)</comment>
+  </data>
+  <data name="LICENSE.ONLINE.UPDATE.SUCCESS" xml:space="preserve">
+    <value>License update successful</value>
+    <comment>Message shown when license is updated online (rpc 151001)</comment>
+  </data>
+  <data name="LICENSE.CHANGE.MESSAGE" xml:space="preserve">
+    <value>Change license properties</value>
+    <comment>Message shown when the user wants to change the license (rpc 151021)</comment>
+  </data>
+  <data name="LICENSE.USERS.NUMBER" xml:space="preserve">
+    <value>Number of users</value>
+    <comment>Used in license details (rpc 151105)</comment>
+  </data>
+  <data name="LICENSE.USERS.UNLIMITED" xml:space="preserve">
+    <value>Unlimited</value>
+    <comment>Used in users count (1/Unlimited) for unlimited users license (rpc 151105)</comment>
+  </data>
+  <data name="LICENSE.DEVELOPERS.NUMBER" xml:space="preserve">
+    <value>Number of developers</value>
+    <comment>Used in license details (rpc 151105)</comment>
+  </data>
+  <data name="LICENSE.DEVELOPERS.UNLIMITED" xml:space="preserve">
+    <value>Unlimited</value>
+    <comment>Used in developers count (1/Unlimited) for unlimited developers license (rpc 151105)</comment>
+  </data>
+  <data name="LICENSE.ENGINES.NUMBER" xml:space="preserve">
+    <value>Number of engines</value>
+    <comment>Used in license details (rpc 151105)</comment>
+  </data>
+  <data name="LICENSE.ENGINES.UNLIMITED" xml:space="preserve">
+    <value>Unlimited</value>
+    <comment>Used in engine count (1/Unlimited) for unlimited engines license (rpc 151105)</comment>
+  </data>
+  <data name="HEADLINE.TASK.IMPORT" xml:space="preserve">
+    <value>Import filters and recipients task</value>
+    <comment>(ext_rwe 151027)</comment>
+  </data>
+  <data name="ACTION.CREATE.TASK.IMPORT" xml:space="preserve">
+    <value>Create import task</value>
+    <comment>(ext_rwe 151027)</comment>
+  </data>
+  <data name="IMPORT.APP" xml:space="preserve">
+    <value>Import app</value>
+    <comment>(ext_rwe 151027)</comment>
+  </data>
+  <data name="LOG" xml:space="preserve">
+    <value>Log</value>
+    <comment>(ext_rwe 151027)</comment>
+  </data>
+  <data name="MESSAGES.IMPORTING.APP" xml:space="preserve">
+    <value>Importing app...</value>
+    <comment>(ext_rwe 151027)</comment>
+  </data>
+  <data name="MESSAGES.UPLOADING.NSQ" xml:space="preserve">
+    <value>Uploading NSQ file...</value>
+    <comment>(ext_rwe 151027)</comment>
+  </data>
+  <data name="REPOSITORY" xml:space="preserve">
+    <value>Repository</value>
+    <comment>(ext_rwe 151027)</comment>
+  </data>
+  <data name="TASK.IMPORT" xml:space="preserve">
+    <value>Import task</value>
+    <comment>(ext_rwe 151027)</comment>
+  </data>
+  <data name="TASK.IMPORT.CREATE.FILTERS" xml:space="preserve">
+    <value>Create filters if not present</value>
+    <comment>(ext_rwe 151027)</comment>
+  </data>
+  <data name="TASK.IMPORT.CREATE.RECIPIENTS" xml:space="preserve">
+    <value>Create recipients if not present</value>
+    <comment>(ext_rwe 151027)</comment>
+  </data>
+  <data name="TASK.IMPORT.FILE.PATH" xml:space="preserve">
+    <value>Import file path (on server)</value>
+    <comment>(ext_rwe 151027)</comment>
+  </data>
+  <data name="TASK.IMPORT.IMPORTED.CONNECTIONS" xml:space="preserve">
+    <value>Imported connections</value>
+    <comment>(ext_rwe 151027)</comment>
+  </data>
+  <data name="TASK.IMPORT.IMPORTED.FILTERS" xml:space="preserve">
+    <value>Imported filters</value>
+    <comment>(ext_rwe 151027)</comment>
+  </data>
+  <data name="TASK.IMPORT.IMPORTED.REPORTS" xml:space="preserve">
+    <value>Imported reports</value>
+    <comment>(ext_rwe 151027)</comment>
+  </data>
+  <data name="TASK.IMPORT.LAST.EXECUTION" xml:space="preserve">
+    <value>Last execution</value>
+    <comment>(ext_rwe 151027)</comment>
+  </data>
+  <data name="TASK.IMPORT.LAST.EXECUTION.STATUS" xml:space="preserve">
+    <value>Last execution status</value>
+    <comment>(ext_rwe 151027)</comment>
+  </data>
+  <data name="TASK.IMPORT.LAST.LOG" xml:space="preserve">
+    <value>Last import log</value>
+    <comment>(ext_rwe 151027)</comment>
+  </data>
+  <data name="TASK.IMPORT.REMOVE.RECIPIENTS" xml:space="preserve">
+    <value>Remove recipients if not present in import file</value>
+    <comment>(ext_rwe 151027)</comment>
+  </data>
+  <data name="TASK.IMPORT.RUN.NOW" xml:space="preserve">
+    <value>Run now</value>
+    <comment>(ext_rwe 151027)</comment>
+  </data>
+  <data name="TASK.IMPORT.UPDATE.FILTERS" xml:space="preserve">
+    <value>Update filters if modified</value>
+    <comment>(ext_rwe 151027)</comment>
+  </data>
+  <data name="TASK.IMPORT.UPDATE.RECIPIENTS" xml:space="preserve">
+    <value>Update recipients if modified</value>
+    <comment>(ext_rwe 151027)</comment>
+  </data>
+  <data name="WARNINGS" xml:space="preserve">
+    <value>Warnings</value>
+    <comment>(ext_rwe 151027)</comment>
+  </data>
+</root>
